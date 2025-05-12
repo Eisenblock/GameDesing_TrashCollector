@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         if (life <= 0)
         {
             Destroy(this);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOverScreen");
         }
     }
 
