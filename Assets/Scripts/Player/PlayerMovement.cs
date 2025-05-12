@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,13 +12,14 @@ public class PlayerMovement : MonoBehaviour
     private float moveInput;
     private float Stance_pos = 0;
     public float life = 3;
-    private float score = 0;
+    public float score = 0;
     public TMP_Text LifeValue;
     public TMP_Text ScoreValue;
     public float timer = 0.5f;
     private bool timerActive = false;
     private float rotateValue = 120;
     private bool gotHit = false;
+    private SpriteRenderer sr;
 
 
 
@@ -26,49 +28,52 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         timer = 0.5f;
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.E) && !timerActive)
+        if (Input.GetKeyDown(KeyCode.E) )
         {
             Stance_pos = (Stance_pos + 1) % 3;
             Debug.Log("Stance: " + Stance_pos);
-            timerActive = true;
-        }
-
-        if (!timerActive && !gotHit)
-        {
             switch (Stance_pos)
             {
-                case 0:
-                    this.GetComponent<SpriteRenderer>().color = Color.blue;
-                    break;
-
                 case 1:
-                    this.GetComponent<SpriteRenderer>().color = Color.green;
+                    transform.DORotate(new Vector3(0, 0, -150f), 0.2f);  // Korrekt: schließende Klammer und Komma
                     break;
 
                 case 2:
-                    this.GetComponent<SpriteRenderer>().color = Color.yellow;
+                    transform.DORotate(new Vector3(0, 0, -280f), 0.2f); // Korrekt: schließende Klammer und Komma
+                    break;
+
+                case 0:
+                    transform.DORotate(new Vector3(0, 0, -30f), 0.2f);  // Korrekt: schließende Klammer und Komma
                     break;
             }
         }
-        if (timerActive)
-        {
-            timer -= Time.deltaTime;
-            Debug.Log("Timer: " + timer.ToString("F2"));
-            transform.Rotate(0, 0, 240 * Time.deltaTime);
+   
 
-            if (timer <= 0)
-            {
-                timer = 0.5f;
-                timerActive = false;
-                Debug.Log("Timer abgelaufen!");
-            }
-        }
+        /*  if (!timerActive && !gotHit)
+          {
+              switch (Stance_pos)
+              {
+                  case 0:
+                      this.GetComponent<SpriteRenderer>().color = Color.blue;
+                      break;
+
+                  case 1:
+                      this.GetComponent<SpriteRenderer>().color = Color.green;
+                      break;
+
+                  case 2:
+                      this.GetComponent<SpriteRenderer>().color = Color.yellow;
+                      break;
+              }
+          }*/
+
 
         if (LifeValue != null)
         {
@@ -94,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        switch (Stance_pos)
+        /*switch (Stance_pos)
         {
             case 0:
                 Debug.Log("Stance 0: Metall");
@@ -150,12 +155,20 @@ public class PlayerMovement : MonoBehaviour
                     Invoke("ResetColorBool", 0.2f);
                 }
                 break;
-        }
+        }*/
     }
 
 
     void ResetColorBool()
     {
         gotHit = false;
+    }
+
+    public void takeDamage()
+    {
+        life -= 1;
+        this.GetComponent<SpriteRenderer>().color = Color.red;
+        sr.DOColor(Color.white, 0.2f);
+
     }
 }

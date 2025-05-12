@@ -130,6 +130,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 20
+  life: 3
+  LifeValue: {fileID: 0}
+  ScoreValue: {fileID: 0}
+  timer: 0.5
+  blueTrash: 0
+  yellowTrash: 0
+  greenTrash: 0
+  normalShippiece: 0
 --- !u!60 &5255113324138785758
 PolygonCollider2D:
   m_ObjectHideFlags: 0

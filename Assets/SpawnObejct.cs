@@ -1,11 +1,12 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class SpawnObejct : MonoBehaviour
 {
     public GameObject trashPrefab;          // Prefab, das gespawnt wird
     public float spawnInterval = 2f;        // Alle wie viele Sekunden?
     public float spawnY = 10f;               // Fester Y-Wert
-    public float minX = -8f, maxX = 8f;     // Bereich für X-Wert
+    public float minX = -8f, maxX = 8f;     // Bereich fÃ¼r X-Wert
+
 
     void Start()
     {
@@ -32,7 +33,7 @@ public class SpawnObejct : MonoBehaviour
         }
         else if (randomForTrash == 2)
         {
-            spawnedTrash.tag = "Grün";
+            spawnedTrash.tag = "GrÃ¼n";
             spawnedTrash.GetComponent<SpriteRenderer>().color = Color.green;
         }
     }
