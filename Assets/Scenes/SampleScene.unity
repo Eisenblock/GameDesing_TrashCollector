@@ -904,12 +904,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a6398f4cc97ee4c857cfca77f52f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 200
+  StartSpeed: 1
+  increasedSpeed: 50
+  timerMoreSpeed: 0.5
   life: 3
   score: 0
   LifeValue: {fileID: 735287662}
   ScoreValue: {fileID: 206787402}
   timer: 0.5
+  rotateValue: 100
 --- !u!50 &1770535664
 Rigidbody2D:
   serializedVersion: 5

@@ -10,33 +10,41 @@ public class SetTrashType_Zone : MonoBehaviour
     public bool normalShippiece = false;
     PlayerMovement playerObject;
     public bool gotHit = false;
+    private Color current_Color = Color.white;
+    private Color startColor = Color.white;
+    private float resetTimeColor = 0.3f ;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerObject = player.GetComponent<PlayerMovement>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        
         if (blueTrash)
         {
-            this.GetComponent<SpriteRenderer>().color = Color.blue;
+            current_Color = Color.blue;
+            startColor = Color.blue;
         }
 
 
         if (yellowTrash)
         {
-            this.GetComponent<SpriteRenderer>().color = Color.yellow;
+            current_Color = Color.yellow;
+            startColor = Color.yellow;
         }
 
 
         if (greenTrash)
         {
-            this.GetComponent<SpriteRenderer>().color = Color.green;
+            current_Color = Color.green;
+            startColor = Color.green;
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //DO Color
+        this.GetComponent<SpriteRenderer>().color = current_Color;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -106,14 +114,15 @@ public class SetTrashType_Zone : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 playerObject.score += 100;
+                playerObject.GetEnergy(1);
                 gotHit = true;
             }
-            else
+            if (collision.gameObject.CompareTag("Yellow") || collision.gameObject.CompareTag("Grün"))
             {
                 Destroy(collision.gameObject);
                 playerObject.takeDamage();
-                this.GetComponent<SpriteRenderer>().color = Color.red;
-                Invoke("ResetColorBool", 0.2f);
+                current_Color = Color.red;
+                Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
         }
@@ -126,15 +135,16 @@ public class SetTrashType_Zone : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 playerObject.score += 100;
+                playerObject.GetEnergy(1);
                 gotHit = true;
             }
-            else
+            if (collision.gameObject.CompareTag("Yellow") || collision.gameObject.CompareTag("Blue"))
             {
                 Destroy(collision.gameObject);
                 playerObject.takeDamage();
-                this.GetComponent<SpriteRenderer>().color = Color.red;
-              //  gotHit = true;
-                Invoke("ResetColorBool", 0.2f);
+                current_Color = Color.red;
+                //  gotHit = true;
+                Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
         }
@@ -146,16 +156,24 @@ public class SetTrashType_Zone : MonoBehaviour
             if (collision.gameObject.CompareTag("Yellow"))
             {
                 Destroy(collision.gameObject);
-              playerObject.score += 100;
+                playerObject.score += 100;
+                playerObject.GetEnergy(1);
                 gotHit = true;
             }
-            else
+            else if (collision.gameObject.CompareTag("Grün"))
             {
                 Destroy(collision.gameObject);
                 playerObject.takeDamage();
-                this.GetComponent<SpriteRenderer>().color = Color.red;
-             //   gotHit = true;
-                Invoke("ResetColorBool", 0.2f);
+                current_Color = Color.red;
+                Invoke("ResetColorBool", resetTimeColor);
+                gotHit = true;
+            }
+            else if (collision.gameObject.CompareTag("Blue"))
+            {
+                Destroy(collision.gameObject);
+                playerObject.takeDamage();
+                current_Color = Color.red;
+                Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
         }
@@ -164,9 +182,9 @@ public class SetTrashType_Zone : MonoBehaviour
         {
             Destroy(collision.gameObject);
             playerObject.life -= 1;
-            this.GetComponent<SpriteRenderer>().color = Color.red;
-          //  gotHit = true;
-            Invoke("ResetColorBool", 0.2f);
+            current_Color = Color.red;
+            //  gotHit = true;
+            Invoke("ResetColorBool", resetTimeColor);
             gotHit = true;
         }
 
@@ -179,5 +197,12 @@ public class SetTrashType_Zone : MonoBehaviour
         {
             gotHit = false;
         }
+
+    }
+
+    void ResetColorBool()
+    {
+        current_Color = startColor; 
     }
 }
+   

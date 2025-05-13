@@ -3,23 +3,28 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     public float moveSpeed = 5f;
+    public float StartSpeed = 1.0f;
+    public float increasedSpeed = 10f;
+    public float timerMoreSpeed = 3f;
+    private float speedTimer = 0f;
+    private bool speedIncreased = true;
     private Rigidbody2D rb;
     private float moveInput;
     private float Stance_pos = 0;
-    public float life = 3;
+    public float life = 15;
     public float score = 0;
     public TMP_Text LifeValue;
     public TMP_Text ScoreValue;
     public float timer = 0.5f;
     private bool timerActive = false;
-    private float rotateValue = 120;
+    public float rotateValue = 5;
     private bool gotHit = false;
-    private SpriteRenderer sr;
 
 
 
@@ -28,33 +33,49 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         timer = 0.5f;
-        sr = GetComponent<SpriteRenderer>();
+        StartSpeed = moveSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.E) )
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed * Time.deltaTime, rb.linearVelocity.y);
+        if (moveInput == 0)
+        {
+            moveSpeed = StartSpeed;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+        }
+        else
+        {
+            speedIncreased = false;
+            MoreSPeedOverTime();
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Stance_pos = (Stance_pos + 1) % 3;
-            Debug.Log("Stance: " + Stance_pos);
-            switch (Stance_pos)
-            {
-                case 1:
-                    transform.DORotate(new Vector3(0, 0, -150f), 0.2f);  // Korrekt: schließende Klammer und Komma
-                    break;
-
-                case 2:
-                    transform.DORotate(new Vector3(0, 0, -280f), 0.2f); // Korrekt: schließende Klammer und Komma
-                    break;
-
-                case 0:
-                    transform.DORotate(new Vector3(0, 0, -30f), 0.2f);  // Korrekt: schließende Klammer und Komma
-                    break;
-            }
+            Debug.Log("Stance (E): " + Stance_pos);
+            transform.DORotate(new Vector3(0, 0, -120f), 0.2f, RotateMode.LocalAxisAdd);
         }
-   
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Stance_pos = (Stance_pos - 1 + 3) % 3;  // Wichtig: +3 verhindert negative Werte bei -1
+            Debug.Log("Stance (Q): " + Stance_pos);
+            transform.DORotate(new Vector3(0, 0, 120f), 0.2f, RotateMode.LocalAxisAdd);
+        }/*
+        if (Input.GetKey(KeyCode.E) )
+        {
+            Stance_pos = (Stance_pos + 1) % 3;
+            transform.Rotate(0, 0, -rotateValue * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Stance_pos = (Stance_pos - 1 + 3) % 3;
+            transform.Rotate(0, 0, rotateValue * Time.deltaTime);
+        }*/
 
         /*  if (!timerActive && !gotHit)
           {
@@ -90,11 +111,47 @@ public class PlayerMovement : MonoBehaviour
             Destroy(this);
             SceneManager.LoadScene("MainMenu");
         }
+
+        LostEnergyOverTime();
     }
 
-    void FixedUpdate()
+    public void  MoreSPeedOverTime()
     {
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        
+        speedTimer += Time.deltaTime;
+
+       
+        if (speedTimer <= timerMoreSpeed && !speedIncreased)
+        {
+            moveSpeed += increasedSpeed * Time.deltaTime;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+            
+        }
+        if (speedTimer >= timerMoreSpeed && !speedIncreased)
+        {
+            speedIncreased = true;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+            speedTimer = 0;
+        }
+
+
+
+    }
+
+    void RotateStance()
+    {
+        switch (Stance_pos)
+        {
+            case 0:
+                transform.DORotate(new Vector3(0, 0, -30f), 0.2f);
+                break;
+            case 1:
+                transform.DORotate(new Vector3(0, 0, -150f), 0.2f);
+                break;
+            case 2:
+                transform.DORotate(new Vector3(0, 0, -280f), 0.2f);
+                break;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -167,8 +224,15 @@ public class PlayerMovement : MonoBehaviour
     public void takeDamage()
     {
         life -= 1;
-        this.GetComponent<SpriteRenderer>().color = Color.red;
-        sr.DOColor(Color.white, 0.2f);
+    }
+    
+    public void LostEnergyOverTime()
+    {
+        life -= 1 * Time.deltaTime;
+    }
 
+    public void GetEnergy(float energy_amount)
+    {
+        life += energy_amount;
     }
 }
