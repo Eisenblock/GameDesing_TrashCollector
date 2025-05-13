@@ -2,6 +2,8 @@
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private bool timerActive = false;
     private float rotateValue = 120;
     private bool gotHit = false;
+
+    public static float totalScore = 125;
 
 
 
@@ -82,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (life <= 0)
         {
+            totalScore = score;
             Destroy(this);
             SceneManager.LoadScene("GameOverScreen");
         }
@@ -159,3 +164,5 @@ public class PlayerMovement : MonoBehaviour
         gotHit = false;
     }
 }
+
+
