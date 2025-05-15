@@ -8,6 +8,8 @@ using UnityEngine.UIElements;
 public class PlayerMovement : MonoBehaviour
 {
 
+    GameManagerGlobal gm;
+    private GameObject globalObject;
     public float moveSpeed = 5f;
     public float StartSpeed = 1.0f;
     public float increasedSpeed = 10f;
@@ -20,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     public float life = 15;
     public float score = 0;
     public TMP_Text LifeValue;
-    public TMP_Text ScoreValue;
     public float timer = 0.5f;
     private bool timerActive = false;
     public float rotateValue = 5;
@@ -34,14 +35,16 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         timer = 0.5f;
         StartSpeed = moveSpeed;
+        globalObject = GameObject.FindWithTag("GlobalManager");
+        gm = globalObject.GetComponent<GameManagerGlobal>();
     }
 
     // Update is called once per frame
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed * Time.deltaTime, rb.linearVelocity.y);
-        if (moveInput == 0)
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+      /*  if (moveInput == 0)
         {
             moveSpeed = StartSpeed;
             Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
@@ -50,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
         {
             speedIncreased = false;
             MoreSPeedOverTime();
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -101,15 +104,20 @@ public class PlayerMovement : MonoBehaviour
             LifeValue.text = life.ToString();
         }
 
-        if (ScoreValue != null)
+        /*if (ScoreValue != null)
         {
-            ScoreValue.text = score.ToString();
-        }
+            if (gm.playerScore != 0) 
+            {
+                ScoreValue.text = gm.playerScore.ToString();
+            }
+        }*/
+
 
         if (life <= 0)
         {
+            gm.gameOver = true;
             Destroy(this);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver");
         }
 
         LostEnergyOverTime();
@@ -228,7 +236,7 @@ public class PlayerMovement : MonoBehaviour
     
     public void LostEnergyOverTime()
     {
-        life -= 1 * Time.deltaTime;
+        life -= 0.3f * Time.deltaTime;
     }
 
     public void GetEnergy(float energy_amount)

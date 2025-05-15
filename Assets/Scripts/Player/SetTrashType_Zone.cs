@@ -125,6 +125,14 @@ public class SetTrashType_Zone : MonoBehaviour
                 Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
+            if (collision.gameObject.CompareTag("asteroid"))
+            {
+                Destroy(collision.gameObject);
+                playerObject.takeDamage();
+                current_Color = Color.red;
+                Invoke("ResetColorBool", resetTimeColor);
+                gotHit = true;
+            }
         }
 
         if (greenTrash && !gotHit)
@@ -144,6 +152,15 @@ public class SetTrashType_Zone : MonoBehaviour
                 playerObject.takeDamage();
                 current_Color = Color.red;
                 //  gotHit = true;
+                Invoke("ResetColorBool", resetTimeColor);
+                gotHit = true;
+            }
+
+            if (collision.gameObject.CompareTag("asteroid"))
+            {
+                Destroy(collision.gameObject);
+                playerObject.takeDamage();
+                current_Color = Color.red;
                 Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
@@ -169,6 +186,15 @@ public class SetTrashType_Zone : MonoBehaviour
                 gotHit = true;
             }
             else if (collision.gameObject.CompareTag("Blue"))
+            {
+                Destroy(collision.gameObject);
+                playerObject.takeDamage();
+                current_Color = Color.red;
+                Invoke("ResetColorBool", resetTimeColor);
+                gotHit = true;
+            }
+
+            if (collision.gameObject.CompareTag("asteroid"))
             {
                 Destroy(collision.gameObject);
                 playerObject.takeDamage();

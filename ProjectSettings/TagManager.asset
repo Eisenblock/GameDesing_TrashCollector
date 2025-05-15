@@ -7,6 +7,8 @@ TagManager:
   - Yellow
   - Blue
   - "Gr\xFCn"
+  - asteroid
+  - GlobalManager
   layers:
   - Default
   - TransparentFX
