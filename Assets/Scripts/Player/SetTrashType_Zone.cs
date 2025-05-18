@@ -19,7 +19,7 @@ public class SetTrashType_Zone : MonoBehaviour
     {
         playerObject = player.GetComponent<PlayerMovement>();
         
-        if (blueTrash)
+        /*if (blueTrash)
         {
             current_Color = Color.blue;
             startColor = Color.blue;
@@ -37,14 +37,14 @@ public class SetTrashType_Zone : MonoBehaviour
         {
             current_Color = Color.green;
             startColor = Color.green;
-        }
+        }*/
     }
 
     // Update is called once per frame
     void Update()
     {
         //DO Color
-        this.GetComponent<SpriteRenderer>().color = current_Color;
+        //this.GetComponent<SpriteRenderer>().color = current_Color;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -207,7 +207,7 @@ public class SetTrashType_Zone : MonoBehaviour
         if (normalShippiece && !gotHit)
         {
             Destroy(collision.gameObject);
-            playerObject.life -= 1;
+            playerObject.takeDamage();
             current_Color = Color.red;
             //  gotHit = true;
             Invoke("ResetColorBool", resetTimeColor);

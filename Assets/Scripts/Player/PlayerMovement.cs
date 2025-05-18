@@ -7,9 +7,13 @@ using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public GameObject lifeIconPrefab;   // Dein Herz-Image Prefab
+    public GameObject nolifeIconPrefab;
+    public Transform lifeBox;
     GameManagerGlobal gm;
+    public GameObject ship;
     private GameObject globalObject;
+    private Color current_color = Color.white;
     public float moveSpeed = 5f;
     public float StartSpeed = 1.0f;
     public float increasedSpeed = 10f;
@@ -26,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     private bool timerActive = false;
     public float rotateValue = 5;
     private bool gotHit = false;
+    private bool blockRotate = false;
 
 
 
@@ -42,6 +47,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (life >= 6)
+        {
+            life = 6;
+        }
+        UpdateLifeDisplay();
+        if (ship != null) 
+        { 
+            ship.GetComponent<SpriteRenderer>().color = current_color;
+        }
+        
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
       /*  if (moveInput == 0)
@@ -55,18 +70,22 @@ public class PlayerMovement : MonoBehaviour
             MoreSPeedOverTime();
         }*/
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !blockRotate)
         {
             Stance_pos = (Stance_pos + 1) % 3;
             Debug.Log("Stance (E): " + Stance_pos);
             transform.DORotate(new Vector3(0, 0, -120f), 0.2f, RotateMode.LocalAxisAdd);
+            Invoke("ResetRotate", 0.2f);
+            blockRotate = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && !blockRotate)
         {
             Stance_pos = (Stance_pos - 1 + 3) % 3;  // Wichtig: +3 verhindert negative Werte bei -1
             Debug.Log("Stance (Q): " + Stance_pos);
             transform.DORotate(new Vector3(0, 0, 120f), 0.2f, RotateMode.LocalAxisAdd);
+            Invoke("ResetRotate", 0.2f);
+            blockRotate = true;
         }/*
         if (Input.GetKey(KeyCode.E) )
         {
@@ -232,6 +251,8 @@ public class PlayerMovement : MonoBehaviour
     public void takeDamage()
     {
         life -= 1;
+        current_color = Color.red;
+        Invoke("ResetColor", 0.3f);
     }
     
     public void LostEnergyOverTime()
@@ -242,5 +263,36 @@ public class PlayerMovement : MonoBehaviour
     public void GetEnergy(float energy_amount)
     {
         life += energy_amount;
+    }
+
+    private void ResetRotate()
+    {
+        blockRotate = false;
+    }
+
+    private void ResetColor()
+    {
+        current_color = Color.white;
+    }
+
+    public void UpdateLifeDisplay()
+    {
+        foreach (Transform child in lifeBox)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Neue Icons spawnen
+        for (int i = 0; i < 6; i++)
+        {
+            if (i < life)
+            {
+                Instantiate(lifeIconPrefab, lifeBox).transform.localScale = Vector3.one;
+            }
+            else
+            {
+                Instantiate(nolifeIconPrefab, lifeBox).transform.localScale = Vector3.one;
+            }
+        }
     }
 }
