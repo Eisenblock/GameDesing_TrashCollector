@@ -14,6 +14,10 @@ public class SpawnObejct : MonoBehaviour
 
     void Start()
     {
+        count_Dif = 0;
+        gravityScale = 0.1f;
+        time_Checkpoints = 15;
+        start_Asteroid = false;
         InvokeRepeating(nameof(SpawnTrash), 0f, spawnInterval);
     }
 
@@ -83,6 +87,7 @@ public class SpawnObejct : MonoBehaviour
             spawnedTrash.tag = "asteroid";
             spawnedTrash.GetComponent<SpriteRenderer>().color = Color.gray;
             Rigidbody2D rb = spawnedTrash.GetComponent<Rigidbody2D>();
+            spawnedTrash.transform.localScale = new Vector3(5f, 5f, 1f);
             if (rb != null)
             {
                 rb.gravityScale = gravityScale;
