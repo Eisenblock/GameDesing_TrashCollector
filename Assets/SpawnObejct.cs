@@ -14,6 +14,7 @@ public class SpawnObejct : MonoBehaviour
     private float lastSpawnX = float.MinValue;
     private float lastRandSpawn = -1;
     private bool gotAngle = false;
+    private float timeSpawn = 0;
 
     void Start()
     {
@@ -29,12 +30,12 @@ public class SpawnObejct : MonoBehaviour
      "time_Checkpoints = " + time_Checkpoints + ", " +
      "start_Asteroid = " + start_Asteroid + ", " +
      "gotAngle = " + gotAngle);
-        InvokeRepeating(nameof(SpawnTrash), 0f, spawnInterval);
+        //InvokeRepeating(nameof(SpawnTrash), 0f, spawnInterval);
     }
 
     private void Update()
     {
-        timer = Time.time;
+        timer += Time.deltaTime;
         if (timer > time_Checkpoints)
         {
             gravityScale = gravityScale + 0.04f;
@@ -50,6 +51,15 @@ public class SpawnObejct : MonoBehaviour
                 gotAngle = true;
             }*/
         }
+
+        timeSpawn += Time.deltaTime;
+        if (timeSpawn > spawnInterval) 
+        {
+            SpawnTrash();
+            timeSpawn = 0;
+        }
+
+
     }
 
     public void ResetLvL()

@@ -136,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
         {
             gm.gameOver = true;
             Destroy(this);
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
 
         LostEnergyOverTime();
