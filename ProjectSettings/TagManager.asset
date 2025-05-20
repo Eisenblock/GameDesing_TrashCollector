@@ -9,6 +9,7 @@ TagManager:
   - "Gr\xFCn"
   - asteroid
   - GlobalManager
+  - Spawn_Object
   layers:
   - Default
   - TransparentFX

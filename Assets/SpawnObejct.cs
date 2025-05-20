@@ -17,11 +17,18 @@ public class SpawnObejct : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Start() wurde ausgeführt in: " + gameObject.name);
         count_Dif = 0;
         gravityScale = 0.1f;
         time_Checkpoints = 15;
         start_Asteroid = false;
         gotAngle = false;
+        Debug.Log("ResetLvL() ausgeführt: " +
+     "count_Dif = " + count_Dif + ", " +
+     "gravityScale = " + gravityScale + ", " +
+     "time_Checkpoints = " + time_Checkpoints + ", " +
+     "start_Asteroid = " + start_Asteroid + ", " +
+     "gotAngle = " + gotAngle);
         InvokeRepeating(nameof(SpawnTrash), 0f, spawnInterval);
     }
 
@@ -38,11 +45,26 @@ public class SpawnObejct : MonoBehaviour
                 start_Asteroid = true;
             }
 
-            if (count_Dif > 2)
+            /*if (count_Dif > 2)
             {
                 gotAngle = true;
-            }
+            }*/
         }
+    }
+
+    public void ResetLvL()
+    {
+        count_Dif = 0;
+        gravityScale = 0.1f;
+        time_Checkpoints = 15;
+        start_Asteroid = false;
+        gotAngle = false;
+        Debug.Log("ResetLvL() ausgeführt: " +
+            "count_Dif = " + count_Dif + ", " +
+            "gravityScale = " + gravityScale + ", " +
+            "time_Checkpoints = " + time_Checkpoints + ", " +
+            "start_Asteroid = " + start_Asteroid + ", " +
+            "gotAngle = " + gotAngle);
     }
 
     void SpawnTrash()
@@ -56,7 +78,7 @@ public class SpawnObejct : MonoBehaviour
         {
             randomX = Random.Range(minX, maxX);
             attempts++;
-            Debug.Log("SPawnPoint random" +  randomX);
+            
         } while ((Mathf.Abs(randomX - lastSpawnX) < 5f || Mathf.Abs(randomX - lastSpawnX) > 40f) && attempts < maxAttempts);
 
         // Speichere neue Position
@@ -71,6 +93,7 @@ public class SpawnObejct : MonoBehaviour
         {
             randomForTrash = start_Asteroid ? Random.Range(0, 4) : Random.Range(0, 3);
         }
+
         Vector2 spawnPos = new Vector2(randomX, spawnY);
 
         GameObject spawnedTrash = Instantiate(trashPrefab, spawnPos, Quaternion.identity);
