@@ -2,22 +2,35 @@
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public GameObject lifeIconPrefab;   // Dein Herz-Image Prefab
+    public GameObject nolifeIconPrefab;
+    public Transform lifeBox;
+    GameManagerGlobal gm;
+    public GameObject ship;
+    private GameObject globalObject;
+    private Color current_color = Color.white;
     public float moveSpeed = 5f;
+    public float StartSpeed = 1.0f;
+    public float increasedSpeed = 10f;
+    public float timerMoreSpeed = 3f;
+    private float speedTimer = 0f;
+    private bool speedIncreased = true;
     private Rigidbody2D rb;
     private float moveInput;
     private float Stance_pos = 0;
-    public float life = 3;
-    private float score = 0;
+    public float life = 15;
+    public float score = 0;
     public TMP_Text LifeValue;
-    public TMP_Text ScoreValue;
     public float timer = 0.5f;
     private bool timerActive = false;
-    private float rotateValue = 120;
+    public float rotateValue = 5;
     private bool gotHit = false;
+    private bool blockRotate = false;
 
 
 
@@ -26,75 +39,151 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         timer = 0.5f;
+        StartSpeed = moveSpeed;
+        globalObject = GameObject.FindWithTag("GlobalManager");
+        gm = globalObject.GetComponent<GameManagerGlobal>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (life >= 6)
+        {
+            life = 6;
+        }
+        UpdateLifeDisplay();
+        if (ship != null) 
+        { 
+            ship.GetComponent<SpriteRenderer>().color = current_color;
+        }
+        
         moveInput = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.E) && !timerActive)
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+      /*  if (moveInput == 0)
+        {
+            moveSpeed = StartSpeed;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+        }
+        else
+        {
+            speedIncreased = false;
+            MoreSPeedOverTime();
+        }*/
+
+        if (Input.GetKeyDown(KeyCode.E) && !blockRotate)
         {
             Stance_pos = (Stance_pos + 1) % 3;
-            Debug.Log("Stance: " + Stance_pos);
-            timerActive = true;
+            Debug.Log("Stance (E): " + Stance_pos);
+            transform.DORotate(new Vector3(0, 0, -120f), 0.2f, RotateMode.LocalAxisAdd);
+            Invoke("ResetRotate", 0.2f);
+            blockRotate = true;
         }
 
-        if (!timerActive && !gotHit)
+        if (Input.GetKeyDown(KeyCode.Q) && !blockRotate)
         {
-            switch (Stance_pos)
-            {
-                case 0:
-                    this.GetComponent<SpriteRenderer>().color = Color.blue;
-                    break;
-
-                case 1:
-                    this.GetComponent<SpriteRenderer>().color = Color.green;
-                    break;
-
-                case 2:
-                    this.GetComponent<SpriteRenderer>().color = Color.yellow;
-                    break;
-            }
-        }
-        if (timerActive)
+            Stance_pos = (Stance_pos - 1 + 3) % 3;  // Wichtig: +3 verhindert negative Werte bei -1
+            Debug.Log("Stance (Q): " + Stance_pos);
+            transform.DORotate(new Vector3(0, 0, 120f), 0.2f, RotateMode.LocalAxisAdd);
+            Invoke("ResetRotate", 0.2f);
+            blockRotate = true;
+        }/*
+        if (Input.GetKey(KeyCode.E) )
         {
-            timer -= Time.deltaTime;
-            Debug.Log("Timer: " + timer.ToString("F2"));
-            transform.Rotate(0, 0, 240 * Time.deltaTime);
-
-            if (timer <= 0)
-            {
-                timer = 0.5f;
-                timerActive = false;
-                Debug.Log("Timer abgelaufen!");
-            }
+            Stance_pos = (Stance_pos + 1) % 3;
+            transform.Rotate(0, 0, -rotateValue * Time.deltaTime);
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Stance_pos = (Stance_pos - 1 + 3) % 3;
+            transform.Rotate(0, 0, rotateValue * Time.deltaTime);
+        }*/
+
+        /*  if (!timerActive && !gotHit)
+          {
+              switch (Stance_pos)
+              {
+                  case 0:
+                      this.GetComponent<SpriteRenderer>().color = Color.blue;
+                      break;
+
+                  case 1:
+                      this.GetComponent<SpriteRenderer>().color = Color.green;
+                      break;
+
+                  case 2:
+                      this.GetComponent<SpriteRenderer>().color = Color.yellow;
+                      break;
+              }
+          }*/
+
 
         if (LifeValue != null)
         {
             LifeValue.text = life.ToString();
         }
 
-        if (ScoreValue != null)
+        /*if (ScoreValue != null)
         {
-            ScoreValue.text = score.ToString();
-        }
+            if (gm.playerScore != 0) 
+            {
+                ScoreValue.text = gm.playerScore.ToString();
+            }
+        }*/
+
 
         if (life <= 0)
         {
+            gm.gameOver = true;
             Destroy(this);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
+
+        LostEnergyOverTime();
     }
 
-    void FixedUpdate()
+    public void  MoreSPeedOverTime()
     {
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        
+        speedTimer += Time.deltaTime;
+
+       
+        if (speedTimer <= timerMoreSpeed && !speedIncreased)
+        {
+            moveSpeed += increasedSpeed * Time.deltaTime;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+            
+        }
+        if (speedTimer >= timerMoreSpeed && !speedIncreased)
+        {
+            speedIncreased = true;
+            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+            speedTimer = 0;
+        }
+
+
+
+    }
+
+    void RotateStance()
+    {
+        switch (Stance_pos)
+        {
+            case 0:
+                transform.DORotate(new Vector3(0, 0, -30f), 0.2f);
+                break;
+            case 1:
+                transform.DORotate(new Vector3(0, 0, -150f), 0.2f);
+                break;
+            case 2:
+                transform.DORotate(new Vector3(0, 0, -280f), 0.2f);
+                break;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        switch (Stance_pos)
+        /*switch (Stance_pos)
         {
             case 0:
                 Debug.Log("Stance 0: Metall");
@@ -150,12 +239,60 @@ public class PlayerMovement : MonoBehaviour
                     Invoke("ResetColorBool", 0.2f);
                 }
                 break;
-        }
+        }*/
     }
 
 
     void ResetColorBool()
     {
         gotHit = false;
+    }
+
+    public void takeDamage()
+    {
+        life -= 1;
+        current_color = Color.red;
+        Invoke("ResetColor", 0.3f);
+    }
+    
+    public void LostEnergyOverTime()
+    {
+        life -= 0.3f * Time.deltaTime;
+    }
+
+    public void GetEnergy(float energy_amount)
+    {
+        life += energy_amount;
+    }
+
+    private void ResetRotate()
+    {
+        blockRotate = false;
+    }
+
+    private void ResetColor()
+    {
+        current_color = Color.white;
+    }
+
+    public void UpdateLifeDisplay()
+    {
+        foreach (Transform child in lifeBox)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Neue Icons spawnen
+        for (int i = 0; i < 6; i++)
+        {
+            if (i < life)
+            {
+                Instantiate(lifeIconPrefab, lifeBox).transform.localScale = Vector3.one;
+            }
+            else
+            {
+                Instantiate(nolifeIconPrefab, lifeBox).transform.localScale = Vector3.one;
+            }
+        }
     }
 }
