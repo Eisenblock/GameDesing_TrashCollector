@@ -6,12 +6,24 @@ public class LoadLvL : MonoBehaviour
     GameManagerGlobal gm;
     SpawnObejct spawnOB;
     private GameObject globalObject;
-   
+
     void Start()
     {
         globalObject = GameObject.FindWithTag("GlobalManager");
         gm = globalObject.GetComponent<GameManagerGlobal>();
     }
+    public void LoadGame()
+    {
+        if (gm.gameOver)
+        {
+            Debug.Log("ResetSCore");
+            gm.scorePLayer = 0;
+            gm.gameOver = false;
+        }
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+    }
+    
     public void LoadMainMenu()
     {
         if (gm.gameOver) 
@@ -21,6 +33,11 @@ public class LoadLvL : MonoBehaviour
             gm.gameOver = false;
         }
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

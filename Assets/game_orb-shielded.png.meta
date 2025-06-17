@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      game_orb-shielded_0: -408234046042954157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

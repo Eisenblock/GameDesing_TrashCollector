@@ -44,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
         gm = globalObject.GetComponent<GameManagerGlobal>();
     }
 
+    void OnCollisionEnter2D()
+    {}
+
     // Update is called once per frame
     void Update()
     {
@@ -241,6 +244,8 @@ public class PlayerMovement : MonoBehaviour
                 break;
         }*/
     }
+
+    
 
 
     void ResetColorBool()

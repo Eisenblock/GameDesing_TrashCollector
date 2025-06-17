@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      game_orb-voll_0: -6796610337726958725
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
