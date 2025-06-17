@@ -31,7 +31,9 @@ public class PlayerMovement : MonoBehaviour
     public float rotateValue = 5;
     private bool gotHit = false;
     private bool blockRotate = false;
-
+    //SHieldValues
+    private bool IsShielded = false;
+    private float shield_duration = 0;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -56,7 +58,15 @@ public class PlayerMovement : MonoBehaviour
         { 
             ship.GetComponent<SpriteRenderer>().color = current_color;
         }
-        
+
+        if (IsShielded)
+        {
+            shield_duration -= Time.deltaTime;
+            if (shield_duration < 0)
+            {
+                IsShielded=false;
+            }
+        }
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
       /*  if (moveInput == 0)
@@ -250,9 +260,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void takeDamage()
     {
-        life -= 1;
-        current_color = Color.red;
-        Invoke("ResetColor", 0.3f);
+        if (!IsShielded)
+        {
+            life -= 1;
+            current_color = Color.red;
+            Invoke("ResetColor", 0.3f);
+        }
     }
     
     public void LostEnergyOverTime()
@@ -293,6 +306,36 @@ public class PlayerMovement : MonoBehaviour
             {
                 Instantiate(nolifeIconPrefab, lifeBox).transform.localScale = Vector3.one;
             }
+        }
+    }
+
+    public void Shield()
+    {
+        IsShielded = true;
+        shield_duration = 5;
+        current_color = Color.blue;
+        Invoke("ResetColor", 5.0f);
+    }
+
+    public void FastTravel()
+    {
+        GameObject backgroundObj = GameObject.FindWithTag("background");
+
+        if (backgroundObj != null)
+        {
+            backGround bgScript = backgroundObj.GetComponent<backGround>();
+            if (bgScript != null)
+            {
+                bgScript.SpeedUp();
+            }
+            else
+            {
+                Debug.LogWarning("Kein backGround-Script auf dem Objekt mit Tag 'background' gefunden.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Kein Objekt mit Tag 'background' gefunden.");
         }
     }
 }
