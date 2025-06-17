@@ -15,6 +15,8 @@ public class SpawnObejct : MonoBehaviour
     private float lastRandSpawn = -1;
     private bool gotAngle = false;
     private float timeSpawn = 0;
+    public GameObject backgroundPrefab;
+    float nextBackgroundTime = 15f;
 
     void Start()
     {
@@ -59,6 +61,11 @@ public class SpawnObejct : MonoBehaviour
             timeSpawn = 0;
         }
 
+        if (timer >= nextBackgroundTime)
+        {
+            UpdateBackGround();
+            nextBackgroundTime += 15f; // nächsten Zeitpunkt festlegen
+        }
 
     }
 
@@ -141,5 +148,12 @@ public class SpawnObejct : MonoBehaviour
                 lastRandSpawn = 3;
                 break;
         }
+    }
+
+    public void UpdateBackGround()
+    {
+        backgroundPrefab = Resources.Load<GameObject>("Prefabs/Background");
+        Vector3 spawnPosition = new Vector3(0f, -200f, 0f);
+        Instantiate(backgroundPrefab, spawnPosition, Quaternion.identity);
     }
 }

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -13,6 +14,7 @@ public class SetTrashType_Zone : MonoBehaviour
     private Color current_Color = Color.white;
     private Color startColor = Color.white;
     private float resetTimeColor = 0.3f ;
+    private bool Isimmun = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,63 +51,7 @@ public class SetTrashType_Zone : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        /*switch (Stance_pos)
-        {
-            case 0:
-                Debug.Log("Stance 0: Metall");
-                Debug.Log("Kollision mit: " + collision.gameObject.name + ", Tag: " + collision.gameObject.tag);
-                if (collision.gameObject.CompareTag("Blue"))
-                {
-                    Destroy(collision.gameObject);
-                    score += 100;
-                }
-                else
-                {
-                    Destroy(collision.gameObject);
-                    life -= 1;
-                    this.GetComponent<SpriteRenderer>().color = Color.red;
-                    gotHit = true;
-                    Invoke("ResetColorBool", 0.2f);
-                }
-                break;
 
-            case 1:
-                Debug.Log("Stance 1: Plastik");
-                Debug.Log("Kollision mit: " + collision.gameObject.name + ", Tag: " + collision.gameObject.tag);
-                if (collision.gameObject.CompareTag("Grün"))
-                {
-                    Destroy(collision.gameObject);
-                    score += 100;
-                }
-                else
-                {
-                    Destroy(collision.gameObject);
-                    life -= 1;
-                    this.GetComponent<SpriteRenderer>().color = Color.red;
-                    gotHit = true;
-                    Invoke("ResetColorBool", 0.2f);
-                }
-                break;
-                
-
-            case 2:
-                Debug.Log("Stance 2: Rest");
-                Debug.Log("Kollision mit: " + collision.gameObject.name + ", Tag: " + collision.gameObject.tag);
-                if (collision.gameObject.CompareTag("Yellow"))
-                {
-                    Destroy(collision.gameObject);
-                    score += 100;
-                }
-                else
-                {
-                    Destroy(collision.gameObject);
-                    life -= 1;
-                    this.GetComponent<SpriteRenderer>().color = Color.red;
-                    gotHit = true;
-                    Invoke("ResetColorBool", 0.2f);
-                }
-                break;
-        }*/
         if (blueTrash && !gotHit)
         {
             Debug.Log("Stance 0: Metall");
@@ -133,6 +79,17 @@ public class SetTrashType_Zone : MonoBehaviour
                 Invoke("ResetColorBool", resetTimeColor);
                 gotHit = true;
             }
+            if (collision.gameObject.CompareTag("shield"))
+            {
+                playerObject.Shield();
+                Destroy(collision.gameObject);
+            }
+            if (collision.gameObject.CompareTag("speedUp"))
+            {
+                playerObject.Shield();
+                playerObject.FastTravel();
+                Destroy(collision.gameObject);
+            }
         }
 
         if (greenTrash && !gotHit)
@@ -146,23 +103,26 @@ public class SetTrashType_Zone : MonoBehaviour
                 playerObject.GetEnergy(1);
                 gotHit = true;
             }
-            if (collision.gameObject.CompareTag("Yellow") || collision.gameObject.CompareTag("Blue"))
-            {
-                Destroy(collision.gameObject);
-                playerObject.takeDamage();
-                current_Color = Color.red;
-                //  gotHit = true;
-                Invoke("ResetColorBool", resetTimeColor);
-                gotHit = true;
-            }
+            if (!Isimmun) 
+            { 
+                if (collision.gameObject.CompareTag("Yellow") || collision.gameObject.CompareTag("Blue"))
+                {
+                    Destroy(collision.gameObject);
+                    playerObject.takeDamage();
+                    current_Color = Color.red;
+                    //  gotHit = true;
+                    Invoke("ResetColorBool", resetTimeColor);
+                    gotHit = true;
+                }
 
-            if (collision.gameObject.CompareTag("asteroid"))
-            {
-                Destroy(collision.gameObject);
-                playerObject.takeDamage();
-                current_Color = Color.red;
-                Invoke("ResetColorBool", resetTimeColor);
-                gotHit = true;
+                if (collision.gameObject.CompareTag("asteroid"))
+                {
+                    Destroy(collision.gameObject);
+                    playerObject.takeDamage();
+                    current_Color = Color.red;
+                    Invoke("ResetColorBool", resetTimeColor);
+                    gotHit = true;
+                }
             }
         }
 
@@ -177,34 +137,39 @@ public class SetTrashType_Zone : MonoBehaviour
                 playerObject.GetEnergy(1);
                 gotHit = true;
             }
-            else if (collision.gameObject.CompareTag("Grün"))
-            {
-                Destroy(collision.gameObject);
-                playerObject.takeDamage();
-                current_Color = Color.red;
-                Invoke("ResetColorBool", resetTimeColor);
-                gotHit = true;
-            }
-            else if (collision.gameObject.CompareTag("Blue"))
-            {
-                Destroy(collision.gameObject);
-                playerObject.takeDamage();
-                current_Color = Color.red;
-                Invoke("ResetColorBool", resetTimeColor);
-                gotHit = true;
-            }
 
-            if (collision.gameObject.CompareTag("asteroid"))
+            if (!Isimmun)
             {
-                Destroy(collision.gameObject);
-                playerObject.takeDamage();
-                current_Color = Color.red;
-                Invoke("ResetColorBool", resetTimeColor);
-                gotHit = true;
+
+                if (collision.gameObject.CompareTag("Grün"))
+                {
+                    Destroy(collision.gameObject);
+                    playerObject.takeDamage();
+                    current_Color = Color.red;
+                    Invoke("ResetColorBool", resetTimeColor);
+                    gotHit = true;
+                }
+                else if (collision.gameObject.CompareTag("Blue"))
+                {
+                    Destroy(collision.gameObject);
+                    playerObject.takeDamage();
+                    current_Color = Color.red;
+                    Invoke("ResetColorBool", resetTimeColor);
+                    gotHit = true;
+                }
+
+                if (collision.gameObject.CompareTag("asteroid"))
+                {
+                    Destroy(collision.gameObject);
+                    playerObject.takeDamage();
+                    current_Color = Color.red;
+                    Invoke("ResetColorBool", resetTimeColor);
+                    gotHit = true;
+                }
             }
         }
 
-        if (normalShippiece && !gotHit)
+        if (normalShippiece && !gotHit && !Isimmun)
         {
             Destroy(collision.gameObject);
             playerObject.takeDamage();
