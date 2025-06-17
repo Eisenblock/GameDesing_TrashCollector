@@ -2,6 +2,10 @@
 
 public class SpawnObejct : MonoBehaviour
 {
+    public Sprite[] bioSprites;
+    public Sprite[] metalSprites;
+    public Sprite[] chemieSprites;
+    public Sprite asteroidSprite;
     public GameObject trashPrefab;          // Prefab, das gespawnt wird
     public float spawnInterval = 2f;        // Alle wie viele Sekunden?
     public float spawnY = 10f;               // Fester Y-Wert
@@ -122,24 +126,28 @@ public class SpawnObejct : MonoBehaviour
 
         switch ((int)randomForTrash)
         {
-            case 0:
+            case 0: // Chemie Müll (Yellow)
                 spawnedTrash.tag = "Yellow";
-                sr.color = Color.yellow;
+                sr.sprite = chemieSprites[Random.Range(0, chemieSprites.Length)];
                 break;
-            case 1:
+
+            case 1: // Metall Müll (Blue)
                 spawnedTrash.tag = "Blue";
-                sr.color = Color.blue;
+                sr.sprite = metalSprites[Random.Range(0, metalSprites.Length)];
                 break;
-            case 2:
-                spawnedTrash.tag = "Grün";
-                sr.color = Color.red;
+
+            case 2: // Bio Müll (Grün)
+                spawnedTrash.tag = "Grün"; 
+                sr.sprite = bioSprites[Random.Range(0, bioSprites.Length)];
                 break;
-            case 3:
+
+            case 3: // Asteroid (wie bisher)
                 spawnedTrash.tag = "asteroid";
-                sr.color = Color.gray;
+                sr.sprite = asteroidSprite;
                 spawnedTrash.transform.localScale = new Vector3(8f, 8f, 1f);
                 lastRandSpawn = 3;
                 break;
         }
+
     }
 }
