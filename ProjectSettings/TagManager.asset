@@ -10,6 +10,9 @@ TagManager:
   - asteroid
   - GlobalManager
   - Spawn_Object
+  - shield
+  - background
+  - speedUp
   layers:
   - Default
   - TransparentFX
