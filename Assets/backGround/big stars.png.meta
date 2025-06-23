@@ -1,0 +1,6642 @@
+fileFormatVersion: 2
+guid: 360614bee2257dd4fb118e3d85464edd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -33549519802734842
+    second: big stars_0
+  - first:
+      213: -1822085179715229727
+    second: big stars_1
+  - first:
+      213: 7652786234219225379
+    second: big stars_2
+  - first:
+      213: -8051151850671795899
+    second: big stars_3
+  - first:
+      213: -1005423278217822784
+    second: big stars_4
+  - first:
+      213: -8184505010516360087
+    second: big stars_5
+  - first:
+      213: -5320395687576006347
+    second: big stars_6
+  - first:
+      213: 2546942750842830229
+    second: big stars_7
+  - first:
+      213: 3128044403800361234
+    second: big stars_8
+  - first:
+      213: 705505771137874873
+    second: big stars_9
+  - first:
+      213: 6165361828430093943
+    second: big stars_10
+  - first:
+      213: 5369587114025685238
+    second: big stars_11
+  - first:
+      213: -3933074412841667175
+    second: big stars_12
+  - first:
+      213: -4611825627988363855
+    second: big stars_13
+  - first:
+      213: 8238595087377906267
+    second: big stars_14
+  - first:
+      213: 126521489311523259
+    second: big stars_15
+  - first:
+      213: 7150046787489710065
+    second: big stars_16
+  - first:
+      213: -3164726001872904890
+    second: big stars_17
+  - first:
+      213: -7408262558314948523
+    second: big stars_18
+  - first:
+      213: -6139276660743916043
+    second: big stars_19
+  - first:
+      213: 2311470177704870975
+    second: big stars_20
+  - first:
+      213: 7590698175779257803
+    second: big stars_21
+  - first:
+      213: -2102227601587763203
+    second: big stars_22
+  - first:
+      213: 1529078115223004435
+    second: big stars_23
+  - first:
+      213: 3506774215593428273
+    second: big stars_24
+  - first:
+      213: 937374922974950698
+    second: big stars_25
+  - first:
+      213: -3334214899489691493
+    second: big stars_26
+  - first:
+      213: -5734621233778284028
+    second: big stars_27
+  - first:
+      213: 1211294583634204121
+    second: big stars_28
+  - first:
+      213: 8326865746614931008
+    second: big stars_29
+  - first:
+      213: -7392615930766592358
+    second: big stars_30
+  - first:
+      213: 6392545011851515900
+    second: big stars_31
+  - first:
+      213: 6353351630767174357
+    second: big stars_32
+  - first:
+      213: 1670960159245885085
+    second: big stars_33
+  - first:
+      213: -5372280048878692837
+    second: big stars_34
+  - first:
+      213: -5510936648531488587
+    second: big stars_35
+  - first:
+      213: 6220229948438383991
+    second: big stars_36
+  - first:
+      213: -4180252281429515581
+    second: big stars_37
+  - first:
+      213: -891236897932979238
+    second: big stars_38
+  - first:
+      213: 7812635525497889374
+    second: big stars_39
+  - first:
+      213: -7917582676364968207
+    second: big stars_40
+  - first:
+      213: -2150800181220200824
+    second: big stars_41
+  - first:
+      213: -2584391013927504556
+    second: big stars_42
+  - first:
+      213: 5156896348880844507
+    second: big stars_43
+  - first:
+      213: -1155066575848682409
+    second: big stars_44
+  - first:
+      213: 5826704253549213441
+    second: big stars_45
+  - first:
+      213: -701603246765000852
+    second: big stars_46
+  - first:
+      213: -683997914922066170
+    second: big stars_47
+  - first:
+      213: 6796034299012597518
+    second: big stars_48
+  - first:
+      213: -8240637492323638872
+    second: big stars_49
+  - first:
+      213: 9175257789265429905
+    second: big stars_50
+  - first:
+      213: 4808632686151669945
+    second: big stars_51
+  - first:
+      213: 8973394830085282345
+    second: big stars_52
+  - first:
+      213: -4915297540339516376
+    second: big stars_53
+  - first:
+      213: -3115396160455381596
+    second: big stars_54
+  - first:
+      213: 3400472657610138635
+    second: big stars_55
+  - first:
+      213: -1244930523594258618
+    second: big stars_56
+  - first:
+      213: -2549129618246893008
+    second: big stars_57
+  - first:
+      213: 3150619843699571604
+    second: big stars_58
+  - first:
+      213: 7111206914972269532
+    second: big stars_59
+  - first:
+      213: 4629729244244268891
+    second: big stars_60
+  - first:
+      213: -4786340729483492504
+    second: big stars_61
+  - first:
+      213: 3886976025904322731
+    second: big stars_62
+  - first:
+      213: 1318745174534993984
+    second: big stars_63
+  - first:
+      213: 2639983112123052978
+    second: big stars_64
+  - first:
+      213: -6401353878586579922
+    second: big stars_65
+  - first:
+      213: 7905194239550723090
+    second: big stars_66
+  - first:
+      213: -2669792726940435737
+    second: big stars_67
+  - first:
+      213: 4194987645982786163
+    second: big stars_68
+  - first:
+      213: -827492141330123541
+    second: big stars_69
+  - first:
+      213: 7569989247236067155
+    second: big stars_70
+  - first:
+      213: 8849881262624706882
+    second: big stars_71
+  - first:
+      213: -6625282790334366301
+    second: big stars_72
+  - first:
+      213: -7464688276536210534
+    second: big stars_73
+  - first:
+      213: 6618374379848670790
+    second: big stars_74
+  - first:
+      213: -3014094162477279880
+    second: big stars_75
+  - first:
+      213: 6829701966963164639
+    second: big stars_76
+  - first:
+      213: -5793088941530720778
+    second: big stars_77
+  - first:
+      213: -1103427342179862302
+    second: big stars_78
+  - first:
+      213: -6332835683457278871
+    second: big stars_79
+  - first:
+      213: -7843184571264711868
+    second: big stars_80
+  - first:
+      213: 8321776355437851979
+    second: big stars_81
+  - first:
+      213: 6835109100892064444
+    second: big stars_82
+  - first:
+      213: -8027553192468276443
+    second: big stars_83
+  - first:
+      213: 7811361178043664140
+    second: big stars_84
+  - first:
+      213: 7159210851926164126
+    second: big stars_85
+  - first:
+      213: 3164869126649714464
+    second: big stars_86
+  - first:
+      213: -7425075028936170613
+    second: big stars_87
+  - first:
+      213: -8274732143559886775
+    second: big stars_88
+  - first:
+      213: -7684007401088367301
+    second: big stars_89
+  - first:
+      213: -183972340831406887
+    second: big stars_90
+  - first:
+      213: 4943519435866605818
+    second: big stars_91
+  - first:
+      213: -7911220458521751034
+    second: big stars_92
+  - first:
+      213: -6866847362848314132
+    second: big stars_93
+  - first:
+      213: 8651263284560828851
+    second: big stars_94
+  - first:
+      213: -7883325694670613573
+    second: big stars_95
+  - first:
+      213: -6653542218948747286
+    second: big stars_96
+  - first:
+      213: 12363264565229865
+    second: big stars_97
+  - first:
+      213: 504895215065717153
+    second: big stars_98
+  - first:
+      213: 6991677592494983452
+    second: big stars_99
+  - first:
+      213: 1424702167866105925
+    second: big stars_100
+  - first:
+      213: -4488183391927834376
+    second: big stars_101
+  - first:
+      213: -4805987627465073355
+    second: big stars_102
+  - first:
+      213: -282988311276465104
+    second: big stars_103
+  - first:
+      213: 9194912964099496583
+    second: big stars_104
+  - first:
+      213: -1845914007927838700
+    second: big stars_105
+  - first:
+      213: -3966182936798332797
+    second: big stars_106
+  - first:
+      213: -5846750381907655709
+    second: big stars_107
+  - first:
+      213: -7072888233085077736
+    second: big stars_108
+  - first:
+      213: 619733388789339950
+    second: big stars_109
+  - first:
+      213: 7367215777613231956
+    second: big stars_110
+  - first:
+      213: 3897631936462248969
+    second: big stars_111
+  - first:
+      213: -6189160690252936336
+    second: big stars_112
+  - first:
+      213: 2267966121315023492
+    second: big stars_113
+  - first:
+      213: -6433284622961184623
+    second: big stars_114
+  - first:
+      213: -3063849165296972486
+    second: big stars_115
+  - first:
+      213: -606171594981356146
+    second: big stars_116
+  - first:
+      213: -6006039285070761710
+    second: big stars_117
+  - first:
+      213: 287320737989929404
+    second: big stars_118
+  - first:
+      213: -6354673219152160468
+    second: big stars_119
+  - first:
+      213: 7235467012800792127
+    second: big stars_120
+  - first:
+      213: -8599154746709069762
+    second: big stars_121
+  - first:
+      213: 7630162243025311273
+    second: big stars_122
+  - first:
+      213: 7626387700905055444
+    second: big stars_123
+  - first:
+      213: 6104037933028152030
+    second: big stars_124
+  - first:
+      213: 4221439787792812656
+    second: big stars_125
+  - first:
+      213: -1752108169376219125
+    second: big stars_126
+  - first:
+      213: 9194332255115959031
+    second: big stars_127
+  - first:
+      213: -4050301545402588342
+    second: big stars_128
+  - first:
+      213: -7448918018963626295
+    second: big stars_129
+  - first:
+      213: -7618420848815724821
+    second: big stars_130
+  - first:
+      213: 1703744693171718130
+    second: big stars_131
+  - first:
+      213: 4487566979061489337
+    second: big stars_132
+  - first:
+      213: 740506027856947068
+    second: big stars_133
+  - first:
+      213: 3447156484385140143
+    second: big stars_134
+  - first:
+      213: -1051064727296864686
+    second: big stars_135
+  - first:
+      213: -8070730476827921846
+    second: big stars_136
+  - first:
+      213: 4828859280874231587
+    second: big stars_137
+  - first:
+      213: -5783835852949813387
+    second: big stars_138
+  - first:
+      213: 4954840762116020315
+    second: big stars_139
+  - first:
+      213: -7703518675672167690
+    second: big stars_140
+  - first:
+      213: -8120373417904147721
+    second: big stars_141
+  - first:
+      213: 4896485381047756219
+    second: big stars_142
+  - first:
+      213: 3531955396219508305
+    second: big stars_143
+  - first:
+      213: -9177352887891000903
+    second: big stars_144
+  - first:
+      213: 3195938774280600202
+    second: big stars_145
+  - first:
+      213: -5730759039214916010
+    second: big stars_146
+  - first:
+      213: -3429586953298064458
+    second: big stars_147
+  - first:
+      213: 1677398656496627220
+    second: big stars_148
+  - first:
+      213: -2046020730348325600
+    second: big stars_149
+  - first:
+      213: -8194804850571584522
+    second: big stars_150
+  - first:
+      213: -1331113855407310449
+    second: big stars_151
+  - first:
+      213: 5804361352348143502
+    second: big stars_152
+  - first:
+      213: 1421993403731109061
+    second: big stars_153
+  - first:
+      213: 2315169157698041425
+    second: big stars_154
+  - first:
+      213: 3841320778542579234
+    second: big stars_155
+  - first:
+      213: -8114314057538629525
+    second: big stars_156
+  - first:
+      213: -2431244986934755524
+    second: big stars_157
+  - first:
+      213: 4801526281314730911
+    second: big stars_158
+  - first:
+      213: -3000761606920624237
+    second: big stars_159
+  - first:
+      213: 6454006027471490644
+    second: big stars_160
+  - first:
+      213: -2521864184674131746
+    second: big stars_161
+  - first:
+      213: -6551903502195606851
+    second: big stars_162
+  - first:
+      213: -6430383103119738676
+    second: big stars_163
+  - first:
+      213: 3813367232189666642
+    second: big stars_164
+  - first:
+      213: -6064424135532942423
+    second: big stars_165
+  - first:
+      213: 4125265310544471983
+    second: big stars_166
+  - first:
+      213: -5664512975103583388
+    second: big stars_167
+  - first:
+      213: 1643106401107984524
+    second: big stars_168
+  - first:
+      213: 420265984242269614
+    second: big stars_169
+  - first:
+      213: -3558611076000889340
+    second: big stars_170
+  - first:
+      213: 3862970812473345372
+    second: big stars_171
+  - first:
+      213: -8951949509138259281
+    second: big stars_172
+  - first:
+      213: -9041521411548726321
+    second: big stars_173
+  - first:
+      213: 1290482633339747426
+    second: big stars_174
+  - first:
+      213: 5295158819396881061
+    second: big stars_175
+  - first:
+      213: 6379363826247579412
+    second: big stars_176
+  - first:
+      213: 7290082830806467025
+    second: big stars_177
+  - first:
+      213: -4312697324699028946
+    second: big stars_178
+  - first:
+      213: -8034712255165866635
+    second: big stars_179
+  - first:
+      213: -7073040463477589043
+    second: big stars_180
+  - first:
+      213: -3584168810101863873
+    second: big stars_181
+  - first:
+      213: 6809417366151086200
+    second: big stars_182
+  - first:
+      213: -4073500618288558981
+    second: big stars_183
+  - first:
+      213: 8429705960495516604
+    second: big stars_184
+  - first:
+      213: 8139092431247648676
+    second: big stars_185
+  - first:
+      213: 1081364698608842452
+    second: big stars_186
+  - first:
+      213: 5535188386389893721
+    second: big stars_187
+  - first:
+      213: -9097066131342985724
+    second: big stars_188
+  - first:
+      213: 6450040202750898800
+    second: big stars_189
+  - first:
+      213: 2890877141240533971
+    second: big stars_190
+  - first:
+      213: -3189119343574625099
+    second: big stars_191
+  - first:
+      213: 5511104616661408464
+    second: big stars_192
+  - first:
+      213: 7332430301873829916
+    second: big stars_193
+  - first:
+      213: 4353535163473979431
+    second: big stars_194
+  - first:
+      213: 1809321445428914992
+    second: big stars_195
+  - first:
+      213: 6424554927949697396
+    second: big stars_196
+  - first:
+      213: -3256043805376508278
+    second: big stars_197
+  - first:
+      213: -5942145824215208559
+    second: big stars_198
+  - first:
+      213: -6687680396728840210
+    second: big stars_199
+  - first:
+      213: -4835590312804547843
+    second: big stars_200
+  - first:
+      213: 2048599470121494986
+    second: big stars_201
+  - first:
+      213: 3976123988768268713
+    second: big stars_202
+  - first:
+      213: 456930971935484940
+    second: big stars_203
+  - first:
+      213: -4279807607349405201
+    second: big stars_204
+  - first:
+      213: 3374336343802141024
+    second: big stars_205
+  - first:
+      213: -8867556995479170947
+    second: big stars_206
+  - first:
+      213: 8516853541707919430
+    second: big stars_207
+  - first:
+      213: -127326479424277485
+    second: big stars_208
+  - first:
+      213: 6737841314618997788
+    second: big stars_209
+  - first:
+      213: -7647582767404442169
+    second: big stars_210
+  - first:
+      213: -7426807151489136865
+    second: big stars_211
+  - first:
+      213: 8689138989157531457
+    second: big stars_212
+  - first:
+      213: 2998856453840872
+    second: big stars_213
+  - first:
+      213: -6309660152089298421
+    second: big stars_214
+  - first:
+      213: -5954101862975297782
+    second: big stars_215
+  - first:
+      213: -3895096952408633246
+    second: big stars_216
+  - first:
+      213: 1950357997135690103
+    second: big stars_217
+  - first:
+      213: -673045370375181305
+    second: big stars_218
+  - first:
+      213: -547346459705324604
+    second: big stars_219
+  - first:
+      213: 4859869372776250726
+    second: big stars_220
+  - first:
+      213: 6374054377889076452
+    second: big stars_221
+  - first:
+      213: -8885387350009486492
+    second: big stars_222
+  - first:
+      213: -6006596751072152068
+    second: big stars_223
+  - first:
+      213: -4480109765631825939
+    second: big stars_224
+  - first:
+      213: 5643506296947289366
+    second: big stars_225
+  - first:
+      213: -5818479636077038396
+    second: big stars_226
+  - first:
+      213: -4174686763099155338
+    second: big stars_227
+  - first:
+      213: 4477969926730524736
+    second: big stars_228
+  - first:
+      213: -3796898854844077364
+    second: big stars_229
+  - first:
+      213: -2969597286885436884
+    second: big stars_230
+  - first:
+      213: 3695615413561244403
+    second: big stars_231
+  - first:
+      213: -2625724401661052434
+    second: big stars_232
+  - first:
+      213: -2964781707695671775
+    second: big stars_233
+  - first:
+      213: 7157565263917534933
+    second: big stars_234
+  - first:
+      213: 4574537873094293801
+    second: big stars_235
+  - first:
+      213: -8211040106141325029
+    second: big stars_236
+  - first:
+      213: 9147592415687397820
+    second: big stars_237
+  - first:
+      213: 7956708811017268533
+    second: big stars_238
+  - first:
+      213: 8146012363857213523
+    second: big stars_239
+  - first:
+      213: -1750818147085073332
+    second: big stars_240
+  - first:
+      213: -7217315424106886642
+    second: big stars_241
+  - first:
+      213: -1953428414522930427
+    second: big stars_242
+  - first:
+      213: 5295520594052968540
+    second: big stars_243
+  - first:
+      213: -8150871902389042851
+    second: big stars_244
+  - first:
+      213: -5039266735424025891
+    second: big stars_245
+  - first:
+      213: -8943166208830045679
+    second: big stars_246
+  - first:
+      213: -4689557093642075972
+    second: big stars_247
+  - first:
+      213: -5905689396320326607
+    second: big stars_248
+  - first:
+      213: 7148781013677297688
+    second: big stars_249
+  - first:
+      213: 1726923292366978800
+    second: big stars_250
+  - first:
+      213: 419289407748453930
+    second: big stars_251
+  - first:
+      213: -4814102343512414867
+    second: big stars_252
+  - first:
+      213: 7102165110639452845
+    second: big stars_253
+  - first:
+      213: -4722149781054154066
+    second: big stars_254
+  - first:
+      213: -824426794112321980
+    second: big stars_255
+  - first:
+      213: -3190952205400949772
+    second: big stars_256
+  - first:
+      213: -7703849726002976956
+    second: big stars_257
+  - first:
+      213: 691870044197648441
+    second: big stars_258
+  - first:
+      213: 7641507263537019997
+    second: big stars_259
+  - first:
+      213: -4862103733270901504
+    second: big stars_260
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big stars_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607e5c5b3eec88ff0800000000000000
+      internalID: -33549519802734842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3122
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7e190de27a6b6e0800000000000000
+      internalID: -1822085179715229727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 3155
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321e2a8a888243a60800000000000000
+      internalID: 7652786234219225379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_3
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 3157
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5419af37c00944090800000000000000
+      internalID: -8051151850671795899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdfaecfad40c02f0800000000000000
+      internalID: -1005423278217822784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_5
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 3128
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96484c96e0cca6e80800000000000000
+      internalID: -8184505010516360087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_6
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 3122
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53113819f482a26b0800000000000000
+      internalID: -5320395687576006347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_7
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3130
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3e3700fe885320800000000000000
+      internalID: 2546942750842830229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_8
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3113
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2194b2aefcb096b20800000000000000
+      internalID: 3128044403800361234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_9
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 3113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb39abc2c57ac900800000000000000
+      internalID: 705505771137874873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_10
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 3115
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e145fdae3cf8550800000000000000
+      internalID: 6165361828430093943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3043
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0140ae70b948a40800000000000000
+      internalID: 5369587114025685238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_12
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3043
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995f46be8a9ea69c0800000000000000
+      internalID: -3933074412841667175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_13
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 3045
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5f5bd96018fffb0800000000000000
+      internalID: -4611825627988363855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3022
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a307ff49e555270800000000000000
+      internalID: 8238595087377906267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_15
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3024
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1eddacf9e71c100800000000000000
+      internalID: 126521489311523259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_16
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 3007
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff3fbfaba11a3360800000000000000
+      internalID: 7150046787489710065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_17
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3009
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d5ceef772a414d0800000000000000
+      internalID: -3164726001872904890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2961
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5589fc03470903990800000000000000
+      internalID: -7408262558314948523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_19
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2961
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f533828768eccaa0800000000000000
+      internalID: -6139276660743916043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_20
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2963
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34020341edf31020800000000000000
+      internalID: 2311470177704870975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2928
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd378c06c3975960800000000000000
+      internalID: 7590698175779257803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_22
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2937
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7075a622363d2e0800000000000000
+      internalID: -2102227601587763203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_23
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2927
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315e0b3c170683510800000000000000
+      internalID: 1529078115223004435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_24
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2939
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13502f3c1909aa030800000000000000
+      internalID: 3506774215593428273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_25
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2928
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25f749a689320d00800000000000000
+      internalID: 937374922974950698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2855
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982a1fd63d7ab1d0800000000000000
+      internalID: -3334214899489691493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_27
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2857
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40aab370f588a60b0800000000000000
+      internalID: -5734621233778284028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2814
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d51fdf81026fc010800000000000000
+      internalID: 1211294583634204121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_29
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2822
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ec9576748fe8370800000000000000
+      internalID: 8326865746614931008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_30
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2814
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9673cd8af6286990800000000000000
+      internalID: -7392615930766592358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_31
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2822
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7da12b1d1e6b850800000000000000
+      internalID: 6392545011851515900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_32
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2816
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2b60d85a3ab2850800000000000000
+      internalID: 6353351630767174357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2799
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e5ea56961703710800000000000000
+      internalID: 1670960159245885085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_34
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2799
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16daa452c3d175b0800000000000000
+      internalID: -5372280048878692837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_35
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2801
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0599cf0583583b0800000000000000
+      internalID: -5510936648531488587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_36
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2729
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d8ae19e22b25650800000000000000
+      internalID: 6220229948438383991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_37
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2729
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2a0eda2b2ccf5c0800000000000000
+      internalID: -4180252281429515581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_38
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2731
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3dbf763c0b1a3f0800000000000000
+      internalID: -891236897932979238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_39
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2708
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5226e80e9e0c6c60800000000000000
+      internalID: 7812635525497889374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_40
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2710
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1feba7741881f1290800000000000000
+      internalID: -7917582676364968207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_41
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2693
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e268f61a2d622e0800000000000000
+      internalID: -2150800181220200824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_42
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2695
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455b326c016622cd0800000000000000
+      internalID: -2584391013927504556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2647
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd63d8a28e9f09740800000000000000
+      internalID: 5156896348880844507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_44
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2647
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ccc9ea11168ffe0800000000000000
+      internalID: -1155066575848682409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_45
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2649
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107fe0cb5ac9cd050800000000000000
+      internalID: 5826704253549213441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2614
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67bf4770976346f0800000000000000
+      internalID: -701603246765000852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_47
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2623
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f56f53583f186f0800000000000000
+      internalID: -683997914922066170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_48
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2613
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e074402203d505e50800000000000000
+      internalID: 6796034299012597518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_49
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2625
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1a84b8cdf53ad80800000000000000
+      internalID: -8240637492323638872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_50
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2614
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1954dc3c850155f70800000000000000
+      internalID: 9175257789265429905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_51
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2541
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8176963f1bbb240800000000000000
+      internalID: 4808632686151669945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_52
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2543
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a5f8c0e07e78c70800000000000000
+      internalID: 8973394830085282345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2496
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c36beedea59cbb0800000000000000
+      internalID: -4915297540339516376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_54
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2507
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ade079b2b3e3c4d0800000000000000
+      internalID: -3115396160455381596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_55
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2496
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04e7499dd7e03f20800000000000000
+      internalID: 3400472657610138635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_56
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2507
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6478f13e84e19bee0800000000000000
+      internalID: -1244930523594258618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_57
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2498
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03287f93e1caf9cd0800000000000000
+      internalID: -2549129618246893008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2481
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b720e1e0049bb20800000000000000
+      internalID: 3150619843699571604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_59
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2481
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb393b230510b260800000000000000
+      internalID: 7111206914972269532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_60
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2483
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57da61e73a104040800000000000000
+      internalID: 4629729244244268891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2411
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86307253770839db0800000000000000
+      internalID: -4786340729483492504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_62
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2411
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba89c7af91051f530800000000000000
+      internalID: 3886976025904322731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_63
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2413
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0483b6dcfbf1d4210800000000000000
+      internalID: 1318745174534993984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_64
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3ff1b37aa13a420800000000000000
+      internalID: 2639983112123052978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_65
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2392
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2427413092d927a0800000000000000
+      internalID: -6401353878586579922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_66
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2375
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21492e00744e4bd60800000000000000
+      internalID: 7905194239550723090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_67
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2377
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea3bc6f8adf2fad0800000000000000
+      internalID: -2669792726940435737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_68
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2329
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372c4fbb907973a30800000000000000
+      internalID: 4194987645982786163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_69
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2329
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4379d18482484f0800000000000000
+      internalID: -827492141330123541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_70
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2331
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f4803ec110e0960800000000000000
+      internalID: 7569989247236067155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_71
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2296
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2419123ae1811da70800000000000000
+      internalID: 8849881262624706882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_72
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2305
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad7c9987644e04a0800000000000000
+      internalID: -6625282790334366301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_73
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2295
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b4906ef89186890800000000000000
+      internalID: -7464688276536210534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_74
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2307
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e1d6dce6039db50800000000000000
+      internalID: 6618374379848670790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_75
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2296
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87596fd1459cb26d0800000000000000
+      internalID: -3014094162477279880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_76
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2223
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd540aee0c9f7ce50800000000000000
+      internalID: 6829701966963164639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_77
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2225
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f551dffc40da9fa0800000000000000
+      internalID: -5793088941530720778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_78
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2196
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e87ae1bda6dfa0f0800000000000000
+      internalID: -1103427342179862302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_79
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2190
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c5c9aaf7f3d18a0800000000000000
+      internalID: -6332835683457278871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_80
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44341f9ff29672390800000000000000
+      internalID: -7843184571264711868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_81
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2190
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b453e1e2183ec7370800000000000000
+      internalID: 8321776355437851979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_82
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2198
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba06b7638f2bde50800000000000000
+      internalID: 6835109100892064444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_83
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2181
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b106b37e6689090800000000000000
+      internalID: -8027553192468276443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_84
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2181
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07c195ea97876c60800000000000000
+      internalID: 7811361178043664140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_85
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2183
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e924e25b650aa5360800000000000000
+      internalID: 7159210851926164126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_86
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2111
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0279e86d3bfdbeb20800000000000000
+      internalID: 3164869126649714464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_87
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2111
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83e2a5d995d4f890800000000000000
+      internalID: -7425075028936170613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_88
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2113
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9483b93f4fe3a2d80800000000000000
+      internalID: -8274732143559886775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_89
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2090
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35c7a6fafbec5590800000000000000
+      internalID: -7684007401088367301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_90
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2092
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d43f387126627df0800000000000000
+      internalID: -183972340831406887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_91
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2075
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8811b2cb8ea9440800000000000000
+      internalID: 4943519435866605818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_92
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2077
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602120e88e2b53290800000000000000
+      internalID: -7911220458521751034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_93
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2029
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec2992a4be04b0a0800000000000000
+      internalID: -6866847362848314132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_94
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2029
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b990a6fe167f0870800000000000000
+      internalID: 8651263284560828851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_95
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2031
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3d2706c0dc89290800000000000000
+      internalID: -7883325694670613573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_96
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1996
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefde759a9ed9a3a0800000000000000
+      internalID: -6653542218948747286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_97
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2005
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929bca8d25ceb2000800000000000000
+      internalID: 12363264565229865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_98
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1995
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a959c6e58fb10700800000000000000
+      internalID: 504895215065717153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_99
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2007
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c8b41abd670160800000000000000
+      internalID: 6991677592494983452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_100
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1996
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5406362c21f85c310800000000000000
+      internalID: 1424702167866105925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1923
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f865550cf4c6b1c0800000000000000
+      internalID: -4488183391927834376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_102
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1925
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d950e47b3bd4db0800000000000000
+      internalID: -4805987627465073355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_103
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1882
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03457c651af921cf0800000000000000
+      internalID: -282988311276465104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_104
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1890
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ad8c5cf94ea9f70800000000000000
+      internalID: 9194912964099496583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_105
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1882
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4182b876dfef166e0800000000000000
+      internalID: -1845914007927838700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_106
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1890
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3887be9f1a945f8c0800000000000000
+      internalID: -3966182936798332797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_107
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1884
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c30c418b2cdea0800000000000000
+      internalID: -5846750381907655709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_108
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1867
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8177ce230ad08dd90800000000000000
+      internalID: -7072888233085077736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_109
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1867
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27dc3ecb3cb99800800000000000000
+      internalID: 619733388789339950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_110
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1869
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4573a4077bb9d3660800000000000000
+      internalID: 7367215777613231956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1797
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cdc0e789b271630800000000000000
+      internalID: 3897631936462248969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_112
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1797
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b89afc42fab1aa0800000000000000
+      internalID: -6189160690252936336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_113
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1799
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3a9fcb2f697f10800000000000000
+      internalID: 2267966121315023492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_114
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1776
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1907a6d68b168b6a0800000000000000
+      internalID: -6433284622961184623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_115
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1778
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dc819ca650b75d0800000000000000
+      internalID: -3063849165296972486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_116
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1761
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d443065227697f0800000000000000
+      internalID: -606171594981356146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_117
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1763
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211f052771346aca0800000000000000
+      internalID: -6006039285070761710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_118
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1715
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb92e7c50b4ccf300800000000000000
+      internalID: 287320737989929404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_119
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1715
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c295fbc206aafc7a0800000000000000
+      internalID: -6354673219152160468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_120
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1717
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f364c0ab9ea896460800000000000000
+      internalID: 7235467012800792127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_121
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1682
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30bac1715aa9a880800000000000000
+      internalID: -8599154746709069762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_122
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1691
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9261f1a3228c3e960800000000000000
+      internalID: 7630162243025311273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_123
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1681
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d49ad7253f56d960800000000000000
+      internalID: 7626387700905055444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_124
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1693
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed217a5d826e5b450800000000000000
+      internalID: 6104037933028152030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_125
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1682
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a4710fe11959a30800000000000000
+      internalID: 4221439787792812656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_126
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1609
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00454c27e24fa7e0800000000000000
+      internalID: -1752108169376219125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_127
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1611
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa5a1de874d89f70800000000000000
+      internalID: 9194332255115959031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_128
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1564
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43201134307ac7c0800000000000000
+      internalID: -4050301545402588342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_129
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1575
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6aaae178020a890800000000000000
+      internalID: -7448918018963626295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_130
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1564
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6a8e42a9ee54690800000000000000
+      internalID: -7618420848815724821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_131
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1575
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7057885cae4a710800000000000000
+      internalID: 1703744693171718130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_132
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1566
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be9bbc246a074e30800000000000000
+      internalID: 4487566979061489337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_133
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1549
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77e2781f4ec64a00800000000000000
+      internalID: 740506027856947068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_134
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1549
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fade5f80f82c6df20800000000000000
+      internalID: 3447156484385140143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_135
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1551
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e0785033ed961f0800000000000000
+      internalID: -1051064727296864686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_136
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1479
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42b0c254610fff80800000000000000
+      internalID: -8070730476827921846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_137
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1479
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275bda7eed830340800000000000000
+      internalID: 4828859280874231587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_138
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1481
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57702c19fefabbfa0800000000000000
+      internalID: -5783835852949813387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_139
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1458
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b581d88db6123c440800000000000000
+      internalID: 4954840762116020315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_140
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1460
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa09f7549a971590800000000000000
+      internalID: -7703518675672167690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_141
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1443
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27c466663ae4f80800000000000000
+      internalID: -8120373417904147721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_142
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1445
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5ae39e28fc3f340800000000000000
+      internalID: 4896485381047756219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_143
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1397
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156103248b6040130800000000000000
+      internalID: 3531955396219508305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_144
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1397
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b10ad21c2e73a080800000000000000
+      internalID: -9177352887891000903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_145
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1399
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a74e4e1614a5c20800000000000000
+      internalID: 3195938774280600202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_146
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1364
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e6c3644014870b0800000000000000
+      internalID: -5730759039214916010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_147
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1373
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbca5236d8a760d0800000000000000
+      internalID: -3429586953298064458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_148
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1363
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ee23bd031574710800000000000000
+      internalID: 1677398656496627220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_149
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1375
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025b08c6cf21b93e0800000000000000
+      internalID: -2046020730348325600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_150
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1364
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb58060864364e80800000000000000
+      internalID: -8194804850571584522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_151
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1291
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89b8d4400fe68de0800000000000000
+      internalID: -1331113855407310449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_152
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1293
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f87baa5eb3d8050800000000000000
+      internalID: 5804361352348143502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_153
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1264
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c46756777febb310800000000000000
+      internalID: 1421993403731109061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_154
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1258
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15638872512212020800000000000000
+      internalID: 2315169157698041425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_155
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e7b5955ec1f4530800000000000000
+      internalID: 3841320778542579234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_156
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1258
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60937c2b5a246f80800000000000000
+      internalID: -8114314057538629525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_157
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1266
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ffdcfc09b724ed0800000000000000
+      internalID: -2431244986934755524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_158
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1249
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93877996b272a240800000000000000
+      internalID: 4801526281314730911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_159
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1249
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397addb97372b56d0800000000000000
+      internalID: -3000761606920624237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_160
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1251
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e0ba5894c319950800000000000000
+      internalID: 6454006027471490644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_161
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1179
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e7bca2e9800dd0800000000000000
+      internalID: -2521864184674131746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_162
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1179
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba3efc6a76f215a0800000000000000
+      internalID: -6551903502195606851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_163
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1181
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8bfd823a0b2c6a0800000000000000
+      internalID: -6430383103119738676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_164
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1158
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25597c82b4dcbe430800000000000000
+      internalID: 3813367232189666642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_165
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1160
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abe0422166d6dba0800000000000000
+      internalID: -6064424135532942423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_166
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1143
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7ae3f71f2ef3930800000000000000
+      internalID: 4125265310544471983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_167
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1145
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b1c55067b9361b0800000000000000
+      internalID: -5664512975103583388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_168
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1097
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c804636f09c7dc610800000000000000
+      internalID: 1643106401107984524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_169
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1097
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadb0fd9fa515d500800000000000000
+      internalID: 420265984242269614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_170
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1099
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4064239a4164d9ec0800000000000000
+      internalID: -3558611076000889340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_171
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1064
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c550d2fac770c9530800000000000000
+      internalID: 3862970812473345372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_172
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1073
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2e494d95944c380800000000000000
+      internalID: -8951949509138259281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_173
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1063
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbbc832e20168280800000000000000
+      internalID: -9041521411548726321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_174
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1075
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cb6052e17b8e110800000000000000
+      internalID: 1290482633339747426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_175
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1064
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa8d6b24ee2c7940800000000000000
+      internalID: 5295158819396881061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_176
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 991
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417b674c99d088850800000000000000
+      internalID: 6379363826247579412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_177
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 993
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1c469c5b39b2560800000000000000
+      internalID: 7290082830806467025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_178
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 950
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22798102a83624c0800000000000000
+      internalID: -4312697324699028946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_179
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 958
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d5c5e06c7fe7090800000000000000
+      internalID: -8034712255165866635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_180
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 950
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb347c4c2387dd90800000000000000
+      internalID: -7073040463477589043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_181
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 958
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a08daf479724ec0800000000000000
+      internalID: -3584168810101863873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_182
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 952
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870cfc44409ef7e50800000000000000
+      internalID: 6809417366151086200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_183
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 935
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c839e15c40877c0800000000000000
+      internalID: -4073500618288558981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_184
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 935
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb045898e45cf470800000000000000
+      internalID: 8429705960495516604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_185
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 937
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a72696817dd3f070800000000000000
+      internalID: 8139092431247648676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_186
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 865
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d63a3dc677c10f00800000000000000
+      internalID: 1081364698608842452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_187
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 865
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95223afb280f0dc40800000000000000
+      internalID: 5535188386389893721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_188
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 867
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40670174d8ab0c180800000000000000
+      internalID: -9097066131342985724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_189
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 844
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072b4fff365238950800000000000000
+      internalID: 6450040202750898800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_190
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 846
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d350f481757e1820800000000000000
+      internalID: 2890877141240533971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_191
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 829
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b458eb8ad8fdb3d0800000000000000
+      internalID: -3189119343574625099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_192
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 831
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da5e1423706b7c40800000000000000
+      internalID: 5511104616661408464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_193
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 783
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ff7bb28602c560800000000000000
+      internalID: 7332430301873829916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_194
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 783
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e9084a2dda6c30800000000000000
+      internalID: 4353535163473979431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_195
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 785
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b6947b4400c1910800000000000000
+      internalID: 1809321445428914992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_196
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 750
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4715d601baa982950800000000000000
+      internalID: 6424554927949697396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_197
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 759
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e0c67096530d2d0800000000000000
+      internalID: -3256043805376508278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_198
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 749
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19de4101bd1498da0800000000000000
+      internalID: -5942145824215208559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_199
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 761
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef42adac169033a0800000000000000
+      internalID: -6687680396728840210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_200
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 750
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df207f50b3884ecb0800000000000000
+      internalID: -4835590312804547843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_201
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 677
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac925a73d561e6c10800000000000000
+      internalID: 2048599470121494986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_202
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 679
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1217d83b70e2730800000000000000
+      internalID: 3976123988768268713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_203
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 632
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ca61d4c48575600800000000000000
+      internalID: 456930971935484940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_204
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 643
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe99ce018a11b94c0800000000000000
+      internalID: -4279807607349405201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_205
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 632
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0695405d60d04de20800000000000000
+      internalID: 3374336343802141024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_206
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 643
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d701fea15eb10f480800000000000000
+      internalID: -8867556995479170947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_207
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 634
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64037850c21f13670800000000000000
+      internalID: 8516853541707919430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_208
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 617
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3143a67dd35ab3ef0800000000000000
+      internalID: -127326479424277485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_209
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 617
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cf0de1afe918d50800000000000000
+      internalID: 6737841314618997788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_210
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 619
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd957eddf35ed590800000000000000
+      internalID: -7647582767404442169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_211
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 547
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c820ae3eaee890800000000000000
+      internalID: -7426807151489136865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_212
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 547
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f3bb4afd5069870800000000000000
+      internalID: 8689138989157531457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_213
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 549
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd9ada177aa0000800000000000000
+      internalID: 2998856453840872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_214
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 526
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ab74d85859f68a0800000000000000
+      internalID: -6309660152089298421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_215
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 528
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07addcd6e7ce5da0800000000000000
+      internalID: -5954101862975297782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_216
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 511
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601af975f5d1f9c0800000000000000
+      internalID: -3895096952408633246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_217
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 513
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797d14d340111b10800000000000000
+      internalID: 1950357997135690103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_218
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 465
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ce0153dccd8a6f0800000000000000
+      internalID: -673045370375181305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_219
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 465
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb423c7b4f6768f0800000000000000
+      internalID: -547346459705324604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_220
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 467
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df0232279b17340800000000000000
+      internalID: 4859869372776250726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_221
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e41a1d7fa0357850800000000000000
+      internalID: 6374054377889076452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_222
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 441
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4636fee2843c0b480800000000000000
+      internalID: -8885387350009486492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_223
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 431
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf53457441844aca0800000000000000
+      internalID: -6006596751072152068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_224
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 443
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7a1c0a7e373d1c0800000000000000
+      internalID: -4480109765631825939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_225
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 432
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d29359313c15e40800000000000000
+      internalID: 5643506296947289366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_226
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 359
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4b8ce399b904fa0800000000000000
+      internalID: -5818479636077038396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_227
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 361
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67413f4e1888016c0800000000000000
+      internalID: -4174686763099155338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_228
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 332
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048a7ad4ce1f42e30800000000000000
+      internalID: 4477969926730524736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_229
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 326
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca6eecbb94be4bc0800000000000000
+      internalID: -3796898854844077364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_230
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 332
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22da3d400fd9c6d0800000000000000
+      internalID: -2969597286885436884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_231
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 326
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fab6cf63a6794330800000000000000
+      internalID: 3695615413561244403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_232
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 334
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9fae0819d8f8bd0800000000000000
+      internalID: -2625724401661052434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_233
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 317
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263934bebafad6d0800000000000000
+      internalID: -2964781707695671775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_234
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 317
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deca746fa7c45360800000000000000
+      internalID: 7157565263917534933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_235
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 319
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9293b5965f50c7f30800000000000000
+      internalID: 4574537873094293801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_236
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 247
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e5f407868c0e80800000000000000
+      internalID: -8211040106141325029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_237
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 247
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1da1706d6c2fe70800000000000000
+      internalID: 9147592415687397820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_238
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 249
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53da7e5d188eb6e60800000000000000
+      internalID: 7956708811017268533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_239
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 226
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35836a3e5137c0170800000000000000
+      internalID: 8146012363857213523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_240
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 228
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44cfa4eb28d3b7e0800000000000000
+      internalID: -1750818147085073332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_241
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 211
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a492a5cd1f6db90800000000000000
+      internalID: -7217315424106886642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_242
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 213
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bc43ae43704e4e0800000000000000
+      internalID: -1953428414522930427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_243
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50fa456ce77d7940800000000000000
+      internalID: 5295520594052968540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_244
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d518360a03942ee80800000000000000
+      internalID: -8150871902389042851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_245
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 167
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddacb927a9de01ab0800000000000000
+      internalID: -5039266735424025891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_246
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 132
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112886b47bd73e380800000000000000
+      internalID: -8943166208830045679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_247
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 141
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb00d8f6ba85beeb0800000000000000
+      internalID: -4689557093642075972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_248
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 131
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c2982a8c6ca0ea0800000000000000
+      internalID: -5905689396320326607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_249
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 143
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810da41c472953360800000000000000
+      internalID: 7148781013677297688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_250
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0feb1e3b59347f710800000000000000
+      internalID: 1726923292366978800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_251
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 59
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a263eeeae7d91d500800000000000000
+      internalID: 419289407748453930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_252
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 61
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65219ebc6fd03db0800000000000000
+      internalID: -4814102343512414867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_253
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 18
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da266db0a85ff8260800000000000000
+      internalID: 7102165110639452845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_254
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 26
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa141c0bcd877eb0800000000000000
+      internalID: -4722149781054154066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_255
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446fe91e23c0f84f0800000000000000
+      internalID: -824426794112321980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_256
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 26
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbb3d520e577b3d0800000000000000
+      internalID: -3190952205400949772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_257
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 20
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4472a9ead7d661590800000000000000
+      internalID: -7703849726002976956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_258
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9387227b3240a9900800000000000000
+      internalID: 691870044197648441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_259
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 3
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cf0b7ae561c0a60800000000000000
+      internalID: 7641507263537019997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big stars_260
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 5
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d89454a66568cb0800000000000000
+      internalID: -4862103733270901504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
