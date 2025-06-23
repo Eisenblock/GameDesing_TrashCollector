@@ -284,6 +284,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28f955e90ac37094485e62d3171b9105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bioSprites: []
+  metalSprites: []
+  chemieSprites: []
+  asteroidSprite: {fileID: 0}
   trashPrefab: {fileID: 7880394613149093519, guid: 3346b9aa0c278654abcda1f457a89413, type: 3}
   spawnInterval: 2
   spawnY: 10
@@ -476,7 +480,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 500
   field of view: 34
   orthographic: 1
   orthographic size: 5
@@ -1699,4 +1703,4 @@ SceneRoots:
   - {fileID: 530053821}
   - {fileID: 573026532}
   - {fileID: 924561470}
-
+  - {fileID: 1801833128}
