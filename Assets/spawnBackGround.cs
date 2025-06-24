@@ -9,7 +9,7 @@ public class spawnBackGround : MonoBehaviour
     public Transform spawnPoint;
 
     [Header("Intervall in Sekunden")]
-    public float spawnInterval = 15f;
+    public float spawnInterval = 30f;
 
     private float timer;
 

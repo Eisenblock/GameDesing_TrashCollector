@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class TrashMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float fallSpeed = 2f; // Geschwindigkeit in Einheiten pro Sekunde
 
-    // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector2.down * fallSpeed * Time.deltaTime);
     }
 }
