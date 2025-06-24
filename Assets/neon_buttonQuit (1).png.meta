@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: a00e2f2d1fd9339418affd4c683912d8
+guid: 22d43549328d7d64d890c48c047ad65d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2389193319765324094
-    second: shield_0
+      213: 537629895135240273
+    second: neon_buttonQuit (1)_0
+  - first:
+      213: -1978847384948627017
+    second: neon_buttonQuit (1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shield_0
+      name: neon_buttonQuit (1)_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 54
-        width: 417
-        height: 327
+        x: 0
+        y: 8
+        width: 641
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3139547aae182120800000000000000
-      internalID: 2389193319765324094
+      spriteID: 150aa288a8b067700800000000000000
+      internalID: 537629895135240273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon_buttonQuit (1)_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b92d6ba9c8b984e0800000000000000
+      internalID: -1978847384948627017
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      shield_0: 2389193319765324094
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
