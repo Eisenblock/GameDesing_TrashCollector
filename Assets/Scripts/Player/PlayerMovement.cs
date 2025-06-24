@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject lifeIconPrefab;   // Dein Herz-Image Prefab
     public GameObject nolifeIconPrefab;
     public Transform lifeBox;
+    public Transform rotateChild;
+    public Transform notrotatechild;
     GameManagerGlobal gm;
     public GameObject ship;
     private GameObject globalObject;
@@ -44,6 +46,10 @@ public class PlayerMovement : MonoBehaviour
         StartSpeed = moveSpeed;
         globalObject = GameObject.FindWithTag("GlobalManager");
         gm = globalObject.GetComponent<GameManagerGlobal>();
+        if (rotateChild == null)
+            rotateChild = transform.Find("Rotate");
+        if (notrotatechild == null)
+            notrotatechild = transform.Find("кораблік2_0");
     }
 
     // Update is called once per frame
@@ -69,22 +75,25 @@ public class PlayerMovement : MonoBehaviour
         }
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-      /*  if (moveInput == 0)
-        {
-            moveSpeed = StartSpeed;
-            Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
-        }
-        else
-        {
-            speedIncreased = false;
-            MoreSPeedOverTime();
-        }*/
+        Vector3 clampedPosition = transform.position;
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -8f, 8f);
+        transform.position = clampedPosition;
+        /*  if (moveInput == 0)
+          {
+              moveSpeed = StartSpeed;
+              Debug.Log("Geschwindigkeit erhöht!" + moveSpeed);
+          }
+          else
+          {
+              speedIncreased = false;
+              MoreSPeedOverTime();
+          }*/
 
         if (Input.GetKeyDown(KeyCode.E) && !blockRotate)
         {
             Stance_pos = (Stance_pos + 1) % 3;
             Debug.Log("Stance (E): " + Stance_pos);
-            transform.DORotate(new Vector3(0, 0, -120f), 0.2f, RotateMode.LocalAxisAdd);
+            rotateChild.DORotate(new Vector3(0, 0, -120f), 0.2f, RotateMode.LocalAxisAdd);
             Invoke("ResetRotate", 0.2f);
             blockRotate = true;
         }
@@ -93,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Stance_pos = (Stance_pos - 1 + 3) % 3;  // Wichtig: +3 verhindert negative Werte bei -1
             Debug.Log("Stance (Q): " + Stance_pos);
-            transform.DORotate(new Vector3(0, 0, 120f), 0.2f, RotateMode.LocalAxisAdd);
+            rotateChild.DORotate(new Vector3(0, 0, 120f), 0.2f, RotateMode.LocalAxisAdd);
             Invoke("ResetRotate", 0.2f);
             blockRotate = true;
         }/*
@@ -153,7 +162,19 @@ public class PlayerMovement : MonoBehaviour
         {
             LostEnergyOverTime();
         }
-        
+
+        if (notrotatechild != null)
+        {
+            SpriteRenderer sr = notrotatechild.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                sr.color = current_color;
+            }
+            else
+            {
+                Debug.LogWarning("SpriteRenderer nicht am rotateChild gefunden!");
+            }
+        }
     }
 
     public void  MoreSPeedOverTime()
@@ -290,6 +311,15 @@ public class PlayerMovement : MonoBehaviour
     private void ResetColor()
     {
         current_color = Color.white;
+        Transform shieldTransform = transform.Find("shield_0");
+        if (shieldTransform != null)
+        {
+            shieldTransform.gameObject.SetActive(false); // Aktivieren
+        }
+        else
+        {
+            Debug.LogWarning("Kind 'shield_0' nicht gefunden!");
+        }
     }
 
     public void UpdateLifeDisplay()
@@ -317,7 +347,18 @@ public class PlayerMovement : MonoBehaviour
     {
         IsShielded = true;
         shield_duration = 5;
-        current_color = Color.blue;
+
+        // Kind mit Namen "shield_0" suchen
+        Transform shieldTransform = transform.Find("shield_0");
+        if (shieldTransform != null)
+        {
+            shieldTransform.gameObject.SetActive(true); // Aktivieren
+        }
+        else
+        {
+            Debug.LogWarning("Kind 'shield_0' nicht gefunden!");
+        }
+
         Invoke("ResetColor", 5.0f);
     }
 

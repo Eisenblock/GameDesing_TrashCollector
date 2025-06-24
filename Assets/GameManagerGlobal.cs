@@ -6,14 +6,14 @@ using UnityEngine.SocialPlatforms.Impl;
 public class GameManagerGlobal : MonoBehaviour
 {
     public static GameManagerGlobal Instance;
-    public int scorePLayer = 0;
+    public float scorePLayer = 0;
     public bool gameOver = false;
 
     public void Update()
     {
         if (!gameOver)
         {
-           scorePLayer += (int)(0.5f * Time.time); 
+           scorePLayer += 2f * Time.deltaTime;
         }
         
     }

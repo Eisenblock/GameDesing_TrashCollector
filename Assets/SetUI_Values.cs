@@ -17,6 +17,6 @@ public class SetUI_Values : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreValue.text = gm.scorePLayer.ToString();
+        ScoreValue.text = Mathf.FloorToInt(gm.scorePLayer).ToString();
     }
 }
