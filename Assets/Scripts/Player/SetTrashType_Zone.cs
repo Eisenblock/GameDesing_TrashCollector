@@ -123,6 +123,18 @@ public class SetTrashType_Zone : MonoBehaviour
                     Invoke("ResetColorBool", resetTimeColor);
                     gotHit = true;
                 }
+
+                if (collision.gameObject.CompareTag("shield"))
+                {
+                    playerObject.Shield();
+                    Destroy(collision.gameObject);
+                }
+                if (collision.gameObject.CompareTag("speedUp"))
+                {
+                    playerObject.Shield();
+                    playerObject.FastTravel();
+                    Destroy(collision.gameObject);
+                }
             }
         }
 
@@ -165,6 +177,18 @@ public class SetTrashType_Zone : MonoBehaviour
                     current_Color = Color.red;
                     Invoke("ResetColorBool", resetTimeColor);
                     gotHit = true;
+                }
+
+                if (collision.gameObject.CompareTag("shield"))
+                {
+                    playerObject.Shield();
+                    Destroy(collision.gameObject);
+                }
+                if (collision.gameObject.CompareTag("speedUp"))
+                {
+                    playerObject.Shield();
+                    playerObject.FastTravel();
+                    Destroy(collision.gameObject);
                 }
             }
         }

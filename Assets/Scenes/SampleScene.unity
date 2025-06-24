@@ -378,12 +378,19 @@ MonoBehaviour:
   templatelvl1:
   - {fileID: 265615081919246500, guid: 7af9cb86093e13c4dbf29d48ad4e2a8e, type: 3}
   - {fileID: 265615081919246500, guid: a9bf8f213b471ab43be2fba3fdde1a72, type: 3}
+  - {fileID: 265615081919246500, guid: 0cdf26aedf920814e8f4a1309f897c61, type: 3}
   templatelvl2:
   - {fileID: 265615081919246500, guid: 1f0144411ed9b3840ac48c942f9b7818, type: 3}
   - {fileID: 265615081919246500, guid: db709e74d2a267642b401b6c427611c1, type: 3}
+  - {fileID: 265615081919246500, guid: 160cd090f86f9244f9ce1295268ceafb, type: 3}
+  - {fileID: 265615081919246500, guid: 730b36d2b3667f644a635fbfc210dc32, type: 3}
   spawnInterval: 12
   speedIncreaseInterval: 20
   fallSpeed: 6
+  prefabsPickUPsToSpawn:
+  - {fileID: 7880394613149093519, guid: 9632326bf3c339e47ac4a8931240d272, type: 3}
+  - {fileID: 7880394613149093519, guid: d77dc05fe1bd043488feca254e00204c, type: 3}
+  spawnPickUpsInterval: 10
 --- !u!4 &392115787
 Transform:
   m_ObjectHideFlags: 0

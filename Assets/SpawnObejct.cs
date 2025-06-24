@@ -14,6 +14,10 @@ public class SpawnObejct : MonoBehaviour
     private float speedTimer = 0f;
     private int lastIndex = -1;
     private int countLvl = 0;
+    public GameObject[] prefabsPickUPsToSpawn;
+    public float spawnPickUpsInterval = 10f;
+    private float pickUpSpawnTimer = 0f;
+
 
     void Update()
     {
@@ -21,6 +25,13 @@ public class SpawnObejct : MonoBehaviour
         Debug.Log($"SpawnTimer: {spawnTimer:F2} / {spawnInterval}");
         Debug.Log($"Level: {countLvl}, lvl1: {lvl1}, lvl2: {lvl2}");
         speedTimer += Time.deltaTime;
+
+        pickUpSpawnTimer += Time.deltaTime;
+        if (pickUpSpawnTimer >= spawnPickUpsInterval)
+        {
+            pickUpSpawnTimer = 0f;
+            SpawnPiclUps();
+        }
 
         // Geschwindigkeit alle 20s erhöhen
         if (speedTimer >= speedIncreaseInterval && countLvl <= 1)
@@ -92,4 +103,24 @@ public class SpawnObejct : MonoBehaviour
             }
         }
     }
+
+    void SpawnPiclUps()
+    {
+        if (prefabsPickUPsToSpawn == null || prefabsPickUPsToSpawn.Length == 0)
+        {
+            Debug.LogWarning("Keine PickUp-Prefabs vorhanden!");
+            return;
+        }
+
+        int randomIndex = Random.Range(0, prefabsPickUPsToSpawn.Length);
+        GameObject prefabToSpawn = prefabsPickUPsToSpawn[randomIndex];
+
+        float randomX = Random.Range(-8f, 8f);
+        Vector3 spawnPosition = new Vector3(randomX, 20f, 0f); // ggf. andere Y-Position
+
+        Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        Debug.Log($"PickUp '{prefabToSpawn.name}' gespawnt bei X={randomX:F2}");
+    }
+
+
 }

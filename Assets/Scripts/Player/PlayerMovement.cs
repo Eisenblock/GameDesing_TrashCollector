@@ -149,7 +149,11 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
 
-        LostEnergyOverTime();
+        if (!IsShielded) 
+        {
+            LostEnergyOverTime();
+        }
+        
     }
 
     public void  MoreSPeedOverTime()
@@ -319,23 +323,26 @@ public class PlayerMovement : MonoBehaviour
 
     public void FastTravel()
     {
-        GameObject backgroundObj = GameObject.FindWithTag("background");
+        GameObject[] backgrounds = GameObject.FindGameObjectsWithTag("background");
+        Debug.Log("FastTravel wird ausgeführt.");
 
-        if (backgroundObj != null)
+        if (backgrounds == null || backgrounds.Length == 0)
         {
-            backGround bgScript = backgroundObj.GetComponent<backGround>();
+            Debug.LogWarning("Keine Objekte mit dem Tag 'Background' gefunden.");
+            return;
+        }
+
+        foreach (GameObject obj in backgrounds)
+        {
+            moveDownBackground bgScript = obj.GetComponent<moveDownBackground>();
             if (bgScript != null)
             {
                 bgScript.SpeedUp();
             }
             else
             {
-                Debug.LogWarning("Kein backGround-Script auf dem Objekt mit Tag 'background' gefunden.");
+                Debug.LogWarning($"Kein moveDownBackground-Script gefunden an Objekt: {obj.name}");
             }
-        }
-        else
-        {
-            Debug.LogWarning("Kein Objekt mit Tag 'background' gefunden.");
         }
     }
 }
