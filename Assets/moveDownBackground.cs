@@ -4,7 +4,7 @@ public class moveDownBackground : MonoBehaviour
 {
     [Header("Bewegungsgeschwindigkeit in Einheiten/Sekunde")]
     public float speed = 5f;
-    private float timerDeath = 20f;
+    private float timerDeath = 60f;
     private float timer = 0;
     void Update()
     {

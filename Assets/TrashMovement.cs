@@ -3,7 +3,7 @@ using UnityEngine;
 public class TrashMovement : MonoBehaviour
 {
     public float fallSpeed = 2f; // Geschwindigkeit in Einheiten pro Sekunde
-    private float timerDeath = 20f;
+    private float timerDeath = 40f;
     private float timer = 0;
 
     void Update()
