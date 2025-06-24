@@ -19,20 +19,11 @@ public class SpawnObejct : MonoBehaviour
     {
         spawnTimer += Time.deltaTime;
         Debug.Log($"SpawnTimer: {spawnTimer:F2} / {spawnInterval}");
+        Debug.Log($"Level: {countLvl}, lvl1: {lvl1}, lvl2: {lvl2}");
         speedTimer += Time.deltaTime;
-        if (!lvl1 && !lvl2)
-        {
-            SpawnTemplates(templatePrefabs);
-        }
-
-        if (lvl1 && !lvl2)
-        {
-            SpawnTemplates(templatelvl1);
-        }
-
 
         // Geschwindigkeit alle 20s erhöhen
-        if (speedTimer >= speedIncreaseInterval && countLvl <=1)
+        if (speedTimer >= speedIncreaseInterval && countLvl <= 1)
         {
             switch (countLvl)
             {
@@ -50,6 +41,22 @@ public class SpawnObejct : MonoBehaviour
                     break;
             }
             countLvl ++;
+            speedTimer = 0;
+        }
+
+        if (!lvl1 && !lvl2)
+        {
+            SpawnTemplates(templatePrefabs);
+        }
+
+        if (lvl1 && !lvl2)
+        {
+            SpawnTemplates(templatelvl1);
+        }
+
+        if (!lvl1 && lvl2)
+        {
+            SpawnTemplates(templatelvl2);
         }
     }
 

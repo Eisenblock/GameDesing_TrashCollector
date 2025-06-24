@@ -3,9 +3,16 @@ using UnityEngine;
 public class TrashMovement : MonoBehaviour
 {
     public float fallSpeed = 2f; // Geschwindigkeit in Einheiten pro Sekunde
+    private float timerDeath = 20f;
+    private float timer = 0;
 
     void Update()
     {
         transform.Translate(Vector2.down * fallSpeed * Time.deltaTime);
+        timer += Time.deltaTime;
+        if (timer >= timerDeath)
+        {
+            Destroy(this);
+        }
     }
 }

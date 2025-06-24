@@ -375,7 +375,12 @@ MonoBehaviour:
   - {fileID: 265615081919246500, guid: 4ff8fde5181ca0d4b9f1b764115c4707, type: 3}
   - {fileID: 265615081919246500, guid: 9ede026c015cba043b89e2188fe4ea9c, type: 3}
   - {fileID: 265615081919246500, guid: 7ca6eb6a84ccc354ab1c9ff432bf3247, type: 3}
-  spawnInterval: 30
+  templatelvl1:
+  - {fileID: 265615081919246500, guid: 7af9cb86093e13c4dbf29d48ad4e2a8e, type: 3}
+  - {fileID: 265615081919246500, guid: a9bf8f213b471ab43be2fba3fdde1a72, type: 3}
+  templatelvl2:
+  - {fileID: 265615081919246500, guid: 1f0144411ed9b3840ac48c942f9b7818, type: 3}
+  spawnInterval: 18
   speedIncreaseInterval: 20
   fallSpeed: 4
 --- !u!4 &392115787
@@ -1313,7 +1318,7 @@ MonoBehaviour:
   - {fileID: 5071783476753675787, guid: cded9285118889d40baf9ee0a8c4022b, type: 3}
   - {fileID: 5683367429364398941, guid: db3ced5f3118b1e43bea29764af40322, type: 3}
   spawnPoint: {fileID: 2048635827}
-  spawnInterval: 15
+  spawnInterval: 60
 --- !u!4 &2048635827
 Transform:
   m_ObjectHideFlags: 0
