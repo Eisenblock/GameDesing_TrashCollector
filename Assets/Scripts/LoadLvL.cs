@@ -23,4 +23,13 @@ public class LoadLvL : MonoBehaviour
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
     }
+
+    public void QuitGame()
+    {
+
+        Debug.Log("geschlossen");
+        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
+    }
+
 }
