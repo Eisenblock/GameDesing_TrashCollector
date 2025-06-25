@@ -384,9 +384,9 @@ MonoBehaviour:
   - {fileID: 265615081919246500, guid: db709e74d2a267642b401b6c427611c1, type: 3}
   - {fileID: 265615081919246500, guid: 160cd090f86f9244f9ce1295268ceafb, type: 3}
   - {fileID: 265615081919246500, guid: 730b36d2b3667f644a635fbfc210dc32, type: 3}
-  spawnInterval: 10
+  spawnInterval: 15
   speedIncreaseInterval: 20
-  fallSpeed: 7
+  fallSpeed: 5
   prefabsPickUPsToSpawn:
   - {fileID: 7880394613149093519, guid: 9632326bf3c339e47ac4a8931240d272, type: 3}
   - {fileID: 7880394613149093519, guid: d77dc05fe1bd043488feca254e00204c, type: 3}

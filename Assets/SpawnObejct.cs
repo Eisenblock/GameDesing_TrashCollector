@@ -18,7 +18,8 @@ public class SpawnObejct : MonoBehaviour
     public float spawnPickUpsInterval = 10f;
     private float pickUpSpawnTimer = 0f;
     private int countPickUP = 0;
-
+    private int countTemps = 0;
+    int a = 0;
 
     void Update()
     {
@@ -35,7 +36,7 @@ public class SpawnObejct : MonoBehaviour
         }
 
         // Geschwindigkeit alle 20s erhöhen
-        if (speedTimer >= speedIncreaseInterval && countLvl <= 1)
+        /*if (speedTimer >= speedIncreaseInterval && countLvl <= 1)
         {
             switch (countLvl)
             {
@@ -54,7 +55,29 @@ public class SpawnObejct : MonoBehaviour
             }
             countLvl ++;
             speedTimer = 0;
+        }*/
+
+
+        if (a == 4)
+        {
+            lvl1 = true;
         }
+
+        if(a == 8)
+        {
+            lvl1 = false;
+            lvl2 = true;
+        }
+
+        /*if(countTemps % 3 == 0 && a <= 9 && countTemps != 0)
+        {
+            fallSpeed -= 2;
+            spawnInterval -= 2;
+            if (a == 9) 
+            {
+                a = 10;
+            }
+        }*/
 
         if (!lvl1 && !lvl2)
         {
@@ -70,6 +93,7 @@ public class SpawnObejct : MonoBehaviour
         {
             SpawnTemplates(templatelvl2);
         }
+        Debug.Log("a" + a);
     }
 
     void SpawnTemplates(GameObject[] reftemps)
@@ -101,6 +125,24 @@ public class SpawnObejct : MonoBehaviour
             if (trash != null)
             {
                 trash.fallSpeed = fallSpeed;
+            }
+            countTemps++;
+            a++;
+            if (a == 3 )
+            {
+                fallSpeed += 1;
+                spawnInterval -= 1;
+            }
+
+            if (a == 6 )
+            {
+                fallSpeed += 1;
+                spawnInterval -= 1;
+            }
+            if (a == 9 )
+            {
+                fallSpeed += 1;
+                spawnInterval -= 1;
             }
         }
     }
