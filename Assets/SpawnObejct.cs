@@ -17,6 +17,7 @@ public class SpawnObejct : MonoBehaviour
     public GameObject[] prefabsPickUPsToSpawn;
     public float spawnPickUpsInterval = 10f;
     private float pickUpSpawnTimer = 0f;
+    private int countPickUP = 0;
 
 
     void Update()
@@ -113,13 +114,18 @@ public class SpawnObejct : MonoBehaviour
         }
 
         int randomIndex = Random.Range(0, prefabsPickUPsToSpawn.Length);
-        GameObject prefabToSpawn = prefabsPickUPsToSpawn[randomIndex];
+        GameObject prefabToSpawn = prefabsPickUPsToSpawn[countPickUP];
 
         float randomX = Random.Range(-8f, 8f);
         Vector3 spawnPosition = new Vector3(randomX, 20f, 0f); // ggf. andere Y-Position
 
         Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
         Debug.Log($"PickUp '{prefabToSpawn.name}' gespawnt bei X={randomX:F2}");
+        countPickUP += 1;
+        if (countPickUP >= 2)
+        {
+            countPickUP = 0;
+        }
     }
 
 

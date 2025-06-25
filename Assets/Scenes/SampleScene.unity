@@ -179,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: -5076868965589513861, guid: 4539276967fe57c41aaaee0f57bcf38a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -384,13 +384,13 @@ MonoBehaviour:
   - {fileID: 265615081919246500, guid: db709e74d2a267642b401b6c427611c1, type: 3}
   - {fileID: 265615081919246500, guid: 160cd090f86f9244f9ce1295268ceafb, type: 3}
   - {fileID: 265615081919246500, guid: 730b36d2b3667f644a635fbfc210dc32, type: 3}
-  spawnInterval: 12
+  spawnInterval: 10
   speedIncreaseInterval: 20
-  fallSpeed: 6
+  fallSpeed: 7
   prefabsPickUPsToSpawn:
   - {fileID: 7880394613149093519, guid: 9632326bf3c339e47ac4a8931240d272, type: 3}
   - {fileID: 7880394613149093519, guid: d77dc05fe1bd043488feca254e00204c, type: 3}
-  spawnPickUpsInterval: 10
+  spawnPickUpsInterval: 30
 --- !u!4 &392115787
 Transform:
   m_ObjectHideFlags: 0

@@ -27,9 +27,11 @@ public class LoadLvL : MonoBehaviour
     public void QuitGame()
     {
 
-        Debug.Log("geschlossen");
-        UnityEditor.EditorApplication.isPlaying = false;
-        Application.Quit();
+    #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false; // Nur im Editor
+    #else
+        Application.Quit(); // Nur im Build
+    #endif
     }
 
 }

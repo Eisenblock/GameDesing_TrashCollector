@@ -47,7 +47,7 @@ public class moveDownBackground : MonoBehaviour
                 GameManagerGlobal managerScript = globalManager.GetComponent<GameManagerGlobal>();
                 if (managerScript != null)
                 {
-                    managerScript.scorePLayer += 5000;
+                    managerScript.scorePLayer += 50;
                     Debug.Log("PlayerScore um 5000 erhöht, neuer Wert: " + managerScript.scorePLayer);
                 }
                 else
