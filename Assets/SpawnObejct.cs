@@ -6,8 +6,8 @@ public class SpawnObejct : MonoBehaviour
     public GameObject[] templatelvl1;
     public GameObject[] templatelvl2;
     public float spawnInterval = 80f; // z.B. alle 5 Sekunden ein Objekt
-    public float speedIncreaseInterval = 19f; // alle 20 Sekunden schneller
-    public float fallSpeed = 4f;
+    public float speedIncreaseInterval = 10f; // alle 20 Sekunden schneller
+    public float fallSpeed = 1f;
     private bool lvl1 = false;
     private bool lvl2 = false;
     private float spawnTimer = 80f;
