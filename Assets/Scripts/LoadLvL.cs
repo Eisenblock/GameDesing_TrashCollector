@@ -24,6 +24,18 @@ public class LoadLvL : MonoBehaviour
         SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
     }
 
+    public void LoadMainMenu2()
+    {
+        if (gm.gameOver)
+        {
+            Debug.Log("ResetSCore");
+            gm.scorePLayer = 0;
+            gm.gameOver = false;
+        }
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
+
     public void QuitGame()
     {
 
