@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 355df9a33933ef540ab4c04394545924
+guid: 0506bf8db96aa1a4cac3e648baefa9e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3515210900594928447
-    second: metall3_0
+      213: 7506424316134843610
+    second: pixil-frame-0(1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: metall3_0
+      name: pixil-frame-0(1)_0
       rect:
         serializedVersion: 2
-        x: 295
-        y: 268
-        width: 140
-        height: 204
+        x: 35
+        y: 15
+        width: 202
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c4557f6f46773fc0800000000000000
-      internalID: -3515210900594928447
+      spriteID: ad46290152d2c2860800000000000000
+      internalID: 7506424316134843610
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      metall3_0: -3515210900594928447
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
